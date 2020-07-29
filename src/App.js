@@ -1,12 +1,20 @@
 import React from 'react';
-import './App.css';
+import Profile from './components/profile/profile';
+import Project from './components/projects/projects';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <h1>GERTRUDE NYENYESHI</h1>
-      <p>Coming Soon :)</p>
-    </div>
+    <main className="App">
+      <div className="upper-section">
+        <Profile/>
+        <Project/>
+      </div>
+      <div className="lower-section">
+        <div>Interviews and Talks</div>
+        <div>Articles</div>
+      </div>
+    </main>
   );
 }
 
