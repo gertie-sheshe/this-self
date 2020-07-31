@@ -38,5 +38,13 @@
         .container {
             background-color: #F28C0F;
         }
-    } 
+    }
+    
+    @media(max-width: 1020px) {
+        
+            .title {
+                margin-top: 20px;
+            }
+        
+      }
 }

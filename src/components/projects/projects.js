@@ -22,7 +22,7 @@ const Project = () => (
             <a href="github.com">
                 <p className="project-language">HTML/CSS</p>
                 <h2 className="project-name">CSS Art</h2>
-                <p>CSS Art of a Tea Cup</p>
+                <p>Fun Art with CSS</p>
             </a>
         </div>
        

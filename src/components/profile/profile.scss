@@ -25,7 +25,7 @@
 
         i {
             margin-left: 10px;
-            padding-top: 5px;
+            padding-top: 3px;
         }
     }
 
@@ -60,7 +60,12 @@
             // text-align: justify;
             // text-justify: inter-word;
             // color: #949495;
-            color: #fafafa
+            color: #fafafa;
+
+            a {
+                color: #fff;
+                text-underline-position: under;
+            }
         }
     }
     .summary {
@@ -93,6 +98,10 @@
             .description-text {
                 margin-left: 0;
               }
+        }
+
+        .socials {
+            margin-bottom: 20px;
         }
       }
   }
