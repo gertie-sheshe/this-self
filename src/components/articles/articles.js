@@ -3,7 +3,7 @@ import './articles.scss';
 
 const Articles = () => (
     <div className="articles">
-        <div>ARTICLES</div>
+        <h2 className="title">ARTICLES</h2>
         <div className="article-display">
             <a href="medium.com">
                 <div className="container">

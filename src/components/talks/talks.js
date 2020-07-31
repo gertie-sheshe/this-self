@@ -3,7 +3,7 @@ import './talks.scss';
 
 const Talks = () => (
     <div className="talks">
-        <div className="title">TALKS, WORKSHOPS AND INTERVIEWS</div>
+        <h2 className="title">TALKS, WORKSHOPS AND INTERVIEWS</h2>
         <div className="talks-display">
             <a href="medium.com">
                 <div className="container">
