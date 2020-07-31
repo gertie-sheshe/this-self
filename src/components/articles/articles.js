@@ -10,7 +10,7 @@ const Articles = () => (
                     <i className="material-icons">article</i>
                 </div>
                 <div className="article-details">
-                    <h2 className="article-title">Javascript Arrays + Time Complexity</h2>
+                    <h2 className="article-title">Javascript Arrays: Under The Hood + Time Complexity</h2>
                     <p>Improve performance of Array solutions</p>
                 </div>
             </a>

@@ -27,6 +27,11 @@ const Profile = () => (
             <p>6 <div className="dash"></div> Tech Articles</p>
             <p>7 <div className="dash"></div> Tech Talks</p>
         </div>
+        <div className="socials">
+            <p>Github</p>
+            <p>Twitter</p>
+            <p>Medium</p>
+        </div>
     </div>
 );
 
