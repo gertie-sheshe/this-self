@@ -7,22 +7,22 @@ const Project = () => (
         <div className="project-display">
             <a href="github.com" >
                 <p className="project-language">JAVASCRIPT</p>
-                <h2 className="project-name">GitHub Timeline</h2>
-                <p>Simple app that displays a user's timeline. Accessibility</p>
+                <h2 className="project-name">Africa Data</h2>
+                <p>Data Visualization of African Countries</p>
             </a>
         </div>
         <div className="project-display">
             <a href="github.com" >
                 <p className="project-language">JAVASCRIPT</p>
-                <h2 className="project-name">Document Management App</h2>
-                <p>Document Management App built with Reactjs, NodeJS and MongoDB</p>
+                <h2 className="project-name">Agile Books</h2>
+                <p>Read more diligently by having stand ups with your books :D</p>
             </a>
         </div>
         <div className="project-display">
             <a href="github.com">
-                <p className="project-language">JAVASCRIPT</p>
-                <h2 className="project-name">Task Manager + CLI Note Taking App</h2>
-                <p>Simple NodeJS Apps</p>
+                <p className="project-language">HTML/CSS</p>
+                <h2 className="project-name">CSS Art</h2>
+                <p>CSS Art of a Tea Cup</p>
             </a>
         </div>
        

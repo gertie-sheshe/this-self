@@ -7,7 +7,7 @@ const Talks = () => (
         <div className="talks-display">
             <a href="medium.com">
                 <div className="container">
-                    <i className="material-icons">event</i>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
                 </div>
                 <div className="talk-details">
                     <h2 className="talk-title">Taking Accessibility With You</h2>
@@ -18,7 +18,7 @@ const Talks = () => (
         <div className="talks-display">
             <a href="medium.com">
                 <div className="container">
-                    <i className="material-icons">event</i>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
                 </div>
                 <div className="talk-details">
                     <h2 className="talk-title">Javascript Arrays + Time Complexity</h2>
@@ -29,7 +29,7 @@ const Talks = () => (
         <div className="talks-display">
             <a href="medium.com">
                 <div className="container">
-                    <i className="material-icons">event</i>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
                 </div>
                 <div className="talk-details">
                     <h2 className="talk-title">Introduction to React</h2>
@@ -40,7 +40,7 @@ const Talks = () => (
         <div className="talks-display">
             <a href="medium.com">
                 <div className="container">
-                    <i className="material-icons">event</i>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
                 </div>
                 <div className="talk-details">
                     <h2 className="talk-title">Web Accessibility</h2>

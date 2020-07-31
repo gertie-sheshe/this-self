@@ -5,6 +5,28 @@
 
     .socials {
         display: flex;
+        margin-top: 20px;
+
+        a {
+            display: inline-flex;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            text-underline-position: under;
+        }
+
+        .social {
+            margin: 0;
+            margin-left: 10px;
+        }
+
+        i {
+            margin-left: 10px;
+            padding-top: 5px;
+        }
     }
 
     .image-name {
@@ -50,5 +72,27 @@
             background-color: #fff;
             
         }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        a:hover {
+            color: #f28c0f;
+
+            .dash {
+                background-color: #f28c0f;
+            }
+            // text-decoration: underline;
+            // text-underline-position: under;
+        }
     }
+
+    @media(max-width: 1020px) {
+        .description {
+            .description-text {
+                margin-left: 0;
+              }
+        }
+      }
   }

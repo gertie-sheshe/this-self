@@ -12,7 +12,7 @@ body {
 
   .App {
     // display: flex;
-    width: 100vw;
+    // width: 100vw;
 
     .upper-section {
       display: flex;
@@ -32,6 +32,24 @@ body {
       margin-top: 30px;
       margin-left: 30px;
       margin-right: 30px;
+    }
+  }
+
+  @media(max-width: 1020px) {
+    .upper-section {
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+
+      // .project {
+      //   flex: 0;
+      // }
+    }
+
+    .lower-section {
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 }

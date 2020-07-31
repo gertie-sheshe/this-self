@@ -22,15 +22,29 @@ const Profile = () => (
             </p>
         </div>
         <div className="summary">
-            <p>4 <div className="dash"></div> Projects</p>
-            <p>5 <div className="dash"></div> Interviews/Media</p>
-            <p>6 <div className="dash"></div> Tech Articles</p>
-            <p>7 <div className="dash"></div> Tech Talks</p>
+            <a href="test.com">
+                <p>4 <div className="dash"></div> Projects</p>
+            </a>
+            <a href="we.com">
+                <p>5 <div className="dash"></div> Interviews/Media</p>
+            </a>
+            <a href="yay.com">
+                <p>6 <div className="dash"></div> Tech Articles</p>
+            </a>
+            <a href="yoo.com"> 
+                <p>7 <div className="dash"></div> Tech Talks</p>
+            </a>
         </div>
         <div className="socials">
-            <p>Github</p>
-            <p>Twitter</p>
-            <p>Medium</p>
+            <a href="me.com">
+                <i className="fa fa-github"></i><p className="social">Github</p>
+            </a>
+            <a href="you.com">
+                <i className="fa fa-twitter"></i><p className="social">Twitter</p>
+            </a>
+            <a href="yes.com">
+                <i className="fa fa-medium"></i><p className="social">Medium</p>
+            </a>
         </div>
     </div>
 );
