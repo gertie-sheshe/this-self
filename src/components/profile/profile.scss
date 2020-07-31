@@ -33,7 +33,18 @@
             margin-right: 30px;
             // text-align: justify;
             // text-justify: inter-word;
-            color: #949495;
+            // color: #949495;
+            color: #fafafa
+        }
+    }
+    .summary {
+        .dash {
+            display: inline-block;
+            width: 50px;
+            height: 1px;
+            margin: 0 5px 5px 5px;
+            background-color: #fff;
+            
         }
     }
   }

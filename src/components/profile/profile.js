@@ -8,7 +8,7 @@ const Profile = () => (
                 <img alt="Avatar" src={require('../../assets/gertie.jpg')}/>
             </div>
             <div className="name">
-                <p className="name-text">Gertrude Nyenyeshi</p>
+                <h1 className="name-text">Gertrude Nyenyeshi</h1>
             </div>
         </div>
         <div className="description">
@@ -22,10 +22,10 @@ const Profile = () => (
             </p>
         </div>
         <div className="summary">
-            <p>4 --- Projects</p>
-            <p>5 --- Interviews/Media</p>
-            <p>6 --- Tech Articles</p>
-            <p>7 --- Tech Talks</p>
+            <p>4 <div className="dash"></div> Projects</p>
+            <p>5 <div className="dash"></div> Interviews/Media</p>
+            <p>6 <div className="dash"></div> Tech Articles</p>
+            <p>7 <div className="dash"></div> Tech Talks</p>
         </div>
     </div>
 );
