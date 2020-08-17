@@ -1,21 +1,24 @@
 import React from 'react';
+import articles from './data';
 import './articles.scss';
 
 const Articles = () => (
     <div className="articles">
         <h3 className="title">ARTICLES</h3>
-        <div className="article-display">
-            <a href="medium.com">
-                <div className="container">
-                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                </div>
-                <div className="article-details">
-                    <h3 className="article-title">Javascript Arrays: Under The Hood + Time Complexity</h3>
-                    <p>Improve performance of Array solutions</p>
-                </div>
-            </a>
-        </div>
-        <div className="article-display">
+        {articles.data.map((article, index) => (
+            <div key={index} className="article-display">
+                <a href={article.link}>
+                    <div className="container">
+                        <i className="fa fa-file-text-o" aria-hidden="true"></i>
+                    </div>
+                    <div className="article-details">
+                        <h3 className="article-title">{article.title}</h3>
+                        <p>{article.description}</p>
+                    </div>
+                </a>
+            </div>
+        ))}
+        {/* <div className="article-display">
             <a href="medium.com">
                 <div className="container">
                     <i class="fa fa-file-text-o" aria-hidden="true"></i>
@@ -25,8 +28,8 @@ const Articles = () => (
                     <p>How I improved the Accessibility of a GitHub Timeline App I built</p>
                 </div>
             </a>
-        </div>
-        <div className="article-display">
+        </div> */}
+        {/* <div className="article-display">
             <a href="medium.com">
                 <div className="container">
                     <i class="fa fa-file-text-o" aria-hidden="true"></i>
@@ -47,7 +50,7 @@ const Articles = () => (
                     <p>Working with Puppeteer.</p>
                 </div>
             </a>
-        </div>
+        </div> */}
     </div>
 )
 

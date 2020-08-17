@@ -32,11 +32,18 @@
     .image-name {
         display: flex;
 
-        img {
+        .img-loaded {
             width: 200px;
             height: 200px;
             border-radius: 50%;
             object-fit: cover;
+        }
+
+        .img-loading {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: #212224;
         }
 
         .name {
