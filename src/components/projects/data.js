@@ -8,7 +8,7 @@ export default {
         title: 'GitHub Timeline',
         tech: 'Javascript. React. Redux.  Reselect. GitHub API',
         link: 'https://github.com/gertie-sheshe/timeline-github',
-        description: 'See a User\'s GitHub timeline. Built using React/Redux and GitHub API'
+        description: 'See a User\'s GitHub repository timeline. Built using React/Redux and GitHub API'
     }, {
         title: 'CSS Art',
         tech: 'HTML/CSS',
