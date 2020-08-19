@@ -26,7 +26,7 @@ class Profile extends Component {
         <div className="description">
             <p className="description-text">
                 Software Developer. Community Manager. Occasional
-                Technical Writer. Experience working with Javscript and its frameworks/libraries (ReactJS, EmberJS, MongoDB, ChartJS, NodeJS, Redux etc)
+                Technical Writer. Experience working with Javascript and its frameworks/libraries (ReactJS, EmberJS, MongoDB, ChartJS, NodeJS, Redux etc)
         Volunteer <a href="https://www.facebook.com/groups/DevCEldoret">Developer Lead at Facebook</a> - grown my community
         from <b>60 to 1.6k </b>developers. I share what I learn at meet ups and through <a href="https://medium.com/@gertienyesh">tech articles</a>
             </p>
