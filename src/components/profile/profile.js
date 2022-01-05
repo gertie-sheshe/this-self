@@ -21,7 +21,7 @@ class Profile extends Component {
               className={this.state.class}
               onLoad={this.loadImage}
               alt="Avatar"
-              src={require("../../assets/gertie.jpg")}
+              src={require("../../assets/gertie.png")}
             />
           </div>
           <div className="name">
@@ -45,7 +45,7 @@ class Profile extends Component {
           <p>12 --- Projects</p>
           <p>05 --- Interviews/Media</p>
           <p>09 --- Tech Articles</p>
-          <p>08 --- Tech Talks</p>
+          <p>10 --- Tech Talks</p>
         </div>
         <div className="socials">
           <a href="https://github.com/gertie-sheshe">

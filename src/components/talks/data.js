@@ -1,6 +1,18 @@
 export default {
   data: [
     {
+      title: "Accessibility in Civic Tech",
+      host: "Code For Africa",
+      link: "https://www.airmeet.com/e/7d5c0900-b255-11eb-baee-2dc149b6eeaf",
+      location: "Nairobi, Kenya",
+    },
+    {
+      title: "Front End Documentation",
+      host: "Meta Developer Circles: Lusaka",
+      link: "https://www.facebook.com/photo/?fbid=3864202093634001&set=g.337859743334881",
+      location: "Lusaka, Zambia - 2021",
+    },
+    {
       title: "Taking Accessibility With You",
       host: "Indoni DevConf",
       link: "https://indonidevelopers.org/conference/speaker/1a2bcaba-d61e-58f3-9bbb-4e6454b36f6c/",
@@ -9,7 +21,7 @@ export default {
     {
       title: "Javascript Arrays + Time Complexity",
       link: "https://www.facebook.com/events/309556033751430",
-      host: "Facebook Developer Circles: Kigali",
+      host: "Meta Developer Circles: Kigali",
       location: "Kigali, Rwanda - 2020",
     },
     {
@@ -21,7 +33,7 @@ export default {
     {
       title: "Introduction to React",
       link: "https://www.facebook.com/groups/DevCLusaka/",
-      host: "Facebook Developer Circles: Lusaka",
+      host: "Meta Developer Circles: Lusaka",
       location: "Kitwe, Zambia - 2018",
     },
     {
