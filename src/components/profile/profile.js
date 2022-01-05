@@ -30,9 +30,10 @@ class Profile extends Component {
         </div>
         <div className="description">
           <p className="description-text">
-            Software Developer. Community Manager. Occasional Technical Writer.
-            Experience working with Javascript and its frameworks/libraries
-            (ReactJS, EmberJS, MongoDB, ChartJS, NodeJS, Redux etc) Volunteer{" "}
+            Software Developer (Javascript). Developer Community Manager.
+            Occasional Technical Writer. Mentor. Experience working with
+            Javascript and its frameworks/libraries (ReactJS, EmberJS, MongoDB,
+            ChartJS, NodeJS, Redux etc) Volunteer{" "}
             <a href="https://www.facebook.com/groups/DevCEldoret">
               Developer Lead at Facebook
             </a>{" "}
