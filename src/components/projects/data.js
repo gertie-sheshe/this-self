@@ -1,17 +1,17 @@
 export default {
   data: [
     {
-      title: "Africa Data",
-      tech: "Javascript, React, ChartJS",
-      link: "https://github.com/gertie-sheshe/africa-data",
-      description: "Data Visualization of African Countries",
+      title: "Spotify Clone",
+      tech: "NextJS (React), Next Auth + Middleware, Recoil, TailwindCSS, Spotify API.",
+      link: "https://github.com/gertie-sheshe/spotify",
+      description: "A clone of the Spotify App",
     },
     {
-      title: "GitHub Timeline",
-      tech: "Javascript. React. Redux.  Reselect. GitHub API",
-      link: "https://github.com/gertie-sheshe/timeline-github",
+      title: "Personal Tech Blog",
+      tech: "NextJS, SanityCMS, Sanity API, Styled-Components",
+      link: "https://github.com/gertie-sheshe/nyenyeshi-dev",
       description:
-        "See a User's GitHub repository timeline. Built using React/Redux and GitHub API",
+        "My personal tech blog where I write about my tech experience and learnings.",
     },
     {
       title: "CSS Art",

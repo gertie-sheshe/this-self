@@ -30,16 +30,16 @@ class Profile extends Component {
         </div>
         <div className="description">
           <p className="description-text">
-            Software Developer (Javascript). Developer Community Manager.
-            Occasional Technical Writer. Mentor. Experience working with
-            Javascript and its frameworks/libraries (ReactJS, EmberJS, MongoDB,
-            ChartJS, NodeJS, Redux etc) Volunteer{" "}
+            Software Engineer (Front End). Developer Community Manager.
+            Technical Writer (I write tutorials, learning summaries and opinion
+            pieces). Mentor. Accessibility Enthusiast. Reader (Currently reading
+            Pragmatic Programmer and Clean Code).{" "}
             <a href="https://www.facebook.com/groups/DevCEldoret">
               Developer Lead at Facebook
             </a>{" "}
             - grown my community from <b>60 to 1.6k </b>developers. I share what
             I learn at meet ups and through{" "}
-            <a href="https://medium.com/@gertienyesh">tech articles</a>
+            <a href="https://www.nyenyeshi.dev/">tech articles</a>
           </p>
         </div>
         <div className="summary">
@@ -57,9 +57,9 @@ class Profile extends Component {
             <i className="fa fa-twitter"></i>
             <p className="social">Twitter</p>
           </a>
-          <a href="https://medium.com/@gertienyesh">
-            <i className="fa fa-medium"></i>
-            <p className="social">Medium</p>
+          <a href="https://www.nyenyeshi.dev/">
+            <i className="fa fa-pencil"></i>
+            <p className="social">Tech Blog</p>
           </a>
         </div>
       </div>

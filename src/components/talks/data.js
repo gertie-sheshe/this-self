@@ -4,7 +4,7 @@ export default {
       title: "Accessibility in Civic Tech",
       host: "Code For Africa",
       link: "https://www.airmeet.com/e/7d5c0900-b255-11eb-baee-2dc149b6eeaf",
-      location: "Nairobi, Kenya",
+      location: "Nairobi, Kenya - 2021",
     },
     {
       title: "Front End Documentation",
