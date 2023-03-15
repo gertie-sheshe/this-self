@@ -9,7 +9,10 @@ function Navigation() {
         container
         justifyContent="center"
         alignItems="center"
-        sx={{ height: "100%" }}
+        direction={{ xs: "column", sm: "row" }}
+        sx={{
+          height: "100%",
+        }}
       >
         <StyledLink href="/">Home</StyledLink>
         <StyledLink href="/projects">Projects</StyledLink>
