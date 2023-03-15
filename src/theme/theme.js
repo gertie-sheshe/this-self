@@ -8,10 +8,10 @@ const FONT_FAMILY = '"Poppins", sans-serif';
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#556cd6",
+      main: "#1f2029",
     },
     secondary: {
-      main: "#19857b",
+      main: "#fff",
     },
     error: {
       main: red.A400,
