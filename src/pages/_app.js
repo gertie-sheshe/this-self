@@ -8,6 +8,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { CacheProvider } from "@emotion/react";
 import theme from "gertrudenyenyeshi/theme/theme";
 import createEmotionCache from "gertrudenyenyeshi/createEmotionCache";
+import "../../public/global.css";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();

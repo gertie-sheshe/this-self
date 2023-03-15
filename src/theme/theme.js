@@ -19,6 +19,42 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: FONT_FAMILY,
+    h1: {
+      fontSize: "2.4rem",
+    },
+    h2: {
+      fontSize: "2.074rem",
+    },
+    h3: {
+      fontSize: "1.728rem",
+    },
+    h4: {
+      fontSize: "1.44rem",
+    },
+    h5: {
+      fontSize: "1.2rem",
+    },
+    h6: {
+      fontSize: "1rem",
+    },
+    subtitle1: {
+      fontSize: "1rem",
+    },
+    subtitle2: {
+      fontSize: "0.8rem",
+    },
+    body1: {
+      fontSize: "1.4rem",
+    },
+    body2: {
+      fontSize: "0.8rem",
+    },
+    button: {
+      fontSize: "1rem",
+    },
+    caption: {
+      fontSize: "0.8rem",
+    },
   },
 });
 
