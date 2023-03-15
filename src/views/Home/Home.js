@@ -1,6 +1,11 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
-import { Section, SummarySection, ScreenReaderTitle } from "./HomeStyles";
+import {
+  Section,
+  SummarySection,
+  ScreenReaderTitle,
+  Divider,
+} from "./HomeStyles";
 
 import { useTheme } from "@mui/material/styles";
 
@@ -23,22 +28,23 @@ function Home() {
         <Section>
           <ScreenReaderTitle variant="h2">Work Summary</ScreenReaderTitle>
           <SizeContainer>
-            <Grid
-              container
-              wrap="nowrap"
-              // justifyContent="center"
-              sx={{ paddingTop: "100px" }}
-            >
+            <Grid container wrap="nowrap" sx={{ paddingTop: "100px" }}>
               <Avatar />
               <SummarySection>
-                <Typography>Hello, Everyone!</Typography>
-                <Typography sx={{ fontSize: "43px" }}>
+                <Typography sx={{ marginBottom: "10px" }}>Hi!</Typography>
+                <Typography
+                  sx={{
+                    fontSize: "43px",
+                    fontWeight: 900,
+                    marginBottom: "10px",
+                  }}
+                >
                   I'm Gertrude Nyenyeshi
                 </Typography>
-                <Typography sx={{ fontSize: "43px" }}>
-                  I am an Experienced Frontend Engineer and Accessibility
-                  Advocate
+                <Typography sx={{ fontSize: "43px", fontWeight: 900 }}>
+                  Frontend Engineer. Accessibility Advocate
                 </Typography>
+                <Divider />
               </SummarySection>
             </Grid>
           </SizeContainer>
