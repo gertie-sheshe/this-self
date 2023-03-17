@@ -39,12 +39,14 @@ function Home() {
                     marginBottom: "10px",
                   }}
                 >
-                  I'm Gertrude Nyenyeshi
+                  I&apos;m Gertrude Nyenyeshi
                 </Typography>
                 <Typography sx={{ fontSize: "43px", fontWeight: 900 }}>
                   Frontend Engineer. Accessibility Advocate
                 </Typography>
-                <Divider />
+                <div>
+                  <Divider />
+                </div>
               </SummarySection>
             </Grid>
           </SizeContainer>
