@@ -5,6 +5,7 @@ import {
   SummarySection,
   ScreenReaderTitle,
   Divider,
+  Break,
 } from "./HomeStyles";
 
 import { useTheme } from "@mui/material/styles";
@@ -20,7 +21,7 @@ function Home() {
       <ScreenReaderTitle varint="h1">Home</ScreenReaderTitle>
       <Grid
         sx={{
-          height: "100vh",
+          minHeight: "100vh",
           width: "100vw",
           backgroundColor: theme.palette.primary.main,
         }}
@@ -28,21 +29,33 @@ function Home() {
         <Section>
           <ScreenReaderTitle variant="h2">Work Summary</ScreenReaderTitle>
           <SizeContainer>
-            <Grid container wrap="nowrap" sx={{ paddingTop: "100px" }}>
+            <Grid
+              container
+              wrap="nowrap"
+              direction={{ xs: "column", md: "row" }}
+              justifyContent={{ xs: "normal", lg: "center" }}
+              alignItems={{ xs: "center", lg: "normal" }}
+              sx={{ paddingTop: { lg: "100px", md: "50px", xs: "50px" } }}
+            >
               <Avatar />
               <SummarySection>
-                <Typography sx={{ marginBottom: "10px" }}>Hi!</Typography>
                 <Typography
                   sx={{
-                    fontSize: "43px",
-                    fontWeight: 900,
                     marginBottom: "10px",
+                    textAlign: { xs: "center", lg: "left" },
                   }}
                 >
-                  I&apos;m Gertrude Nyenyeshi
+                  Hi!
                 </Typography>
-                <Typography sx={{ fontSize: "43px", fontWeight: 900 }}>
-                  Frontend Engineer. Accessibility Advocate
+                <Typography
+                  sx={{
+                    fontSize: { lg: "2.6rem", md: "1.5rem" },
+                    fontWeight: 900,
+                    textAlign: { xs: "center", lg: "left" },
+                  }}
+                >
+                  I&apos;m Gertrude Nyenyeshi <Break /> Software Engineer
+                  (Frontend) <Break /> Accessibility Advocate
                 </Typography>
                 <div>
                   <Divider />

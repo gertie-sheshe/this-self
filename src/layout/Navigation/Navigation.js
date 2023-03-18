@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import { StyledLink, NavBar } from "./NavigationStyles";
 
 function Navigation() {
@@ -12,6 +12,7 @@ function Navigation() {
         direction={{ xs: "column", sm: "row" }}
         sx={{
           height: "100%",
+          padding: { xs: "20px 0", md: 0 },
         }}
       >
         <StyledLink href="/">Home</StyledLink>
