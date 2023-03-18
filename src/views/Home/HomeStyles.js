@@ -15,6 +15,7 @@ export const Break = styled("span")(() => ({
 
 export const SummarySection = styled("div")(({ theme: { breakpoints } }) => ({
   margin: "20px 0 0 0",
+  width: "100%",
   [breakpoints.up("md")]: {
     margin: "0 0 0 80px",
   },

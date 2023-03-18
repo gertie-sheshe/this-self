@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
+import { GitHub, Twitter, LinkedIn } from "@mui/icons-material";
 import {
   Section,
   SummarySection,
@@ -12,6 +13,7 @@ import { useTheme } from "@mui/material/styles";
 
 import Avatar from "gertrudenyenyeshi/components/Avatar/Avatar";
 import SizeContainer from "gertrudenyenyeshi/layout/SizeContainer";
+import SocialMediaBar from "gertrudenyenyeshi/components/SocialMediaBar";
 
 function Home() {
   const theme = useTheme();
@@ -60,6 +62,9 @@ function Home() {
                 <div>
                   <Divider />
                 </div>
+                <Grid>
+                  <SocialMediaBar />
+                </Grid>
               </SummarySection>
             </Grid>
           </SizeContainer>

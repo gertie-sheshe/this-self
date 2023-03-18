@@ -6,7 +6,7 @@ function Avatar() {
   return (
     <div>
       <StyledImage
-        priority="true"
+        // priority="true"
         placeholder="blur"
         src={avatarImg}
         alt="A portrait of Gertrude"
