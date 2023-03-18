@@ -5,7 +5,12 @@ import { StyledImage } from "./AvatarStyles";
 function Avatar() {
   return (
     <div>
-      <StyledImage src={avatarImg} alt="A portrait of Gertrude" />
+      <StyledImage
+        priority="true"
+        placeholder="blur"
+        src={avatarImg}
+        alt="A portrait of Gertrude"
+      />
     </div>
   );
 }
