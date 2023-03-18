@@ -7,7 +7,7 @@ const socialData = [
   {
     name: "GitHub",
     component: <GitHub />,
-    href: "github.com/gertie-sheshe",
+    href: "https://github.com/gertie-sheshe",
     description: "GitHub Portfolio",
   },
   {
@@ -27,9 +27,16 @@ const socialData = [
 function SocialMediaBar() {
   return (
     <>
-      <List sx={{ display: "flex" }}>
+      <List
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", sm: "row" },
+          alignItems: { xs: "center", sm: "normal" },
+          justifyContent: { sm: "center", lg: "normal" },
+        }}
+      >
         {socialData.map(({ name, component, href, description }) => (
-          <ListItem key={name}>
+          <ListItem key={name} sx={{ width: "fit-content" }}>
             <StyledLink
               href={href}
               sx={{ display: "flex", alignItems: "center", color: "#fff" }}
