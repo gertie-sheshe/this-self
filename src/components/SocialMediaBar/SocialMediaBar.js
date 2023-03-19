@@ -1,30 +1,18 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { List, ListItem, Typography } from "@mui/material";
 import { GitHub, Twitter, LinkedIn } from "@mui/icons-material";
 import { StyledLink } from "./SocialMediaStyles";
 
-const socialData = [
-  {
-    name: "GitHub",
-    component: <GitHub />,
-    href: "https://github.com/gertie-sheshe",
-    description: "GitHub Portfolio",
-  },
-  {
-    name: "Twitter",
-    component: <Twitter />,
-    href: "https://twitter.com/gertiesheshe",
-    description: "Twitter Account",
-  },
-  {
-    name: "LinkedIn",
-    component: <LinkedIn />,
-    href: "https://www.linkedin.com/in/gertrudenyenyeshi",
-    description: "LinkedIn Profile",
-  },
-];
+const componentMap = {
+  GitHub: <GitHub />,
+  Twitter: <Twitter />,
+  LinkedIn: <LinkedIn />,
+};
 
-function SocialMediaBar() {
+function SocialMediaBar({ socialData }) {
+  if (!socialData.length) return;
+
   return (
     <>
       <List
@@ -35,13 +23,13 @@ function SocialMediaBar() {
           justifyContent: { sm: "center", lg: "normal" },
         }}
       >
-        {socialData.map(({ name, component, href, description }) => (
+        {socialData.map(({ name, href, description }) => (
           <ListItem key={name} sx={{ width: "fit-content" }}>
             <StyledLink
               href={href}
               sx={{ display: "flex", alignItems: "center", color: "#fff" }}
             >
-              {component}
+              {componentMap[name]}
               <Typography
                 variant="body2"
                 sx={{ display: "inline", marginLeft: "10px" }}
@@ -55,5 +43,15 @@ function SocialMediaBar() {
     </>
   );
 }
+
+SocialMediaBar.propTypes = {
+  socialData: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      href: PropTypes.string.isRequired,
+    })
+  ),
+};
 
 export default SocialMediaBar;

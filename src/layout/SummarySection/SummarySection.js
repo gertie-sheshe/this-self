@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
+import PropTypes from "prop-types";
 import { Section, Profile, Break } from "./SummarySectionStyles";
 
 import Avatar from "gertrudenyenyeshi/components/Avatar/Avatar";
@@ -7,15 +8,13 @@ import SocialMediaBar from "gertrudenyenyeshi/components/SocialMediaBar";
 import Title from "gertrudenyenyeshi/components/Title";
 import Divider from "gertrudenyenyeshi/components/Divider";
 
-function SummarySection() {
+function SummarySection({ title, socials, description, avatar }) {
+  if (!title) return; // title important for screen readers. Must be present
+
   return (
     <>
       <Section>
-        <Title
-          variant="h2"
-          screenReaderOnly="true"
-          title="Work and Profile Summary"
-        />
+        <Title variant="h2" screenReaderOnly="true" title={title} />
         <Grid
           container
           wrap="nowrap"
@@ -24,7 +23,7 @@ function SummarySection() {
           alignItems={{ xs: "center", lg: "normal" }}
           sx={{ paddingTop: { lg: "100px", md: "50px", xs: "50px" } }}
         >
-          <Avatar />
+          <Avatar {...avatar} />
           <Profile>
             <Typography
               sx={{
@@ -48,7 +47,7 @@ function SummarySection() {
               <Divider sx={{ marginTop: "40px", marginBottom: "20px" }} />
             </Grid>
             <Grid>
-              <SocialMediaBar />
+              <SocialMediaBar socialData={socials} />
             </Grid>
             <Grid sx={{ display: { md: "none" } }}>
               <Divider
@@ -59,21 +58,24 @@ function SummarySection() {
         </Grid>
         <div>
           <Typography
-            sx={{ lineHeight: "2.1", textAlign: { xs: "center", lg: "left" } }}
+            sx={{
+              lineHeight: "2.1",
+              marginTop: { lg: "30px" },
+              textAlign: { xs: "center", lg: "left" },
+            }}
           >
-            As an Experienced Software Engineer with a specialization in
-            Frontend, I possess expertise in architecting and maintaining
-            scalable applications with a strong focus on performance, usability
-            and accessibility. As an Accessibility Advocate, I founded
-            Accessibility Africa to raise awareness and promote training and
-            conversations around accessibility. I have a proven track record of
-            building and managing developer communities, and I take pride in
-            providing mentorship and guidance to junior engineers.
+            {description}
           </Typography>
         </div>
       </Section>
     </>
   );
 }
+
+SummarySection.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  socials: PropTypes.array,
+};
 
 export default SummarySection;
