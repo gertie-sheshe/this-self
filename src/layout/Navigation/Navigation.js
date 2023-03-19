@@ -1,16 +1,28 @@
 import React from "react";
-import Link from "next/link";
+import { Grid, Typography } from "@mui/material";
+import { StyledLink, NavBar } from "./NavigationStyles";
 
 function Navigation() {
   return (
-    <nav>
-      <Link href="/">Home</Link>
-      <Link href="/projects">Projects</Link>
-      <Link href="/writing">Writing</Link>
-      <Link href="/accessibility">Accessibility</Link>
-      <Link href="/speaking">Speaking</Link>
-      <Link href="/achievements">Achievements</Link>
-    </nav>
+    <NavBar>
+      <Grid
+        container
+        justifyContent="center"
+        alignItems="center"
+        direction={{ xs: "column", sm: "row" }}
+        sx={{
+          height: "100%",
+          padding: { xs: "20px 0", md: 0 },
+        }}
+      >
+        <StyledLink href="/">Home</StyledLink>
+        <StyledLink href="/projects">Projects</StyledLink>
+        <StyledLink href="/writing">Writing</StyledLink>
+        <StyledLink href="/speaking">Speaking</StyledLink>
+        <StyledLink href="/accessibility">Accessibility</StyledLink>
+        <StyledLink href="/achievements">Achievements</StyledLink>
+      </Grid>
+    </NavBar>
   );
 }
 
