@@ -1,5 +1,4 @@
 import { styled } from "@mui/system";
-import { ScreenReaderTitleStyles } from "gertrudenyenyeshi/styles";
 
 export const Section = styled("section")(() => ({}));
 
@@ -20,5 +19,3 @@ export const Profile = styled("div")(({ theme: { breakpoints } }) => ({
     margin: "0 0 0 80px",
   },
 }));
-
-export const ScreenReaderTitle = ScreenReaderTitleStyles;

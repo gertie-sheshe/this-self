@@ -1,23 +1,21 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
-import {
-  Section,
-  Profile,
-  ScreenReaderTitle,
-  Divider,
-  Break,
-} from "./SummarySectionStyles";
+import { Section, Profile, Break } from "./SummarySectionStyles";
 
 import Avatar from "gertrudenyenyeshi/components/Avatar/Avatar";
 import SocialMediaBar from "gertrudenyenyeshi/components/SocialMediaBar";
+import Title from "gertrudenyenyeshi/components/Title";
+import Divider from "gertrudenyenyeshi/components/Divider";
 
 function SummarySection() {
   return (
     <>
       <Section>
-        <ScreenReaderTitle variant="h2">
-          Work and Profile Summary
-        </ScreenReaderTitle>
+        <Title
+          variant="h2"
+          screenReaderOnly="true"
+          title="Work and Profile Summary"
+        />
         <Grid
           container
           wrap="nowrap"
@@ -46,17 +44,24 @@ function SummarySection() {
               I&apos;m Gertrude Nyenyeshi <Break /> Software Engineer (Frontend){" "}
               <Break /> Accessibility Advocate
             </Typography>
-            <div>
-              <Divider />
-            </div>
+            <Grid>
+              <Divider sx={{ marginTop: "40px", marginBottom: "20px" }} />
+            </Grid>
             <Grid>
               <SocialMediaBar />
+            </Grid>
+            <Grid sx={{ display: { md: "none" } }}>
+              <Divider
+                sx={{ marginBottom: "40px", marginTop: { xs: "20px", lg: 0 } }}
+              />
             </Grid>
           </Profile>
         </Grid>
         <div>
-          <Typography sx={{ lineHeight: "2.1" }}>
-            As an Experienced Software Sngineer with a specialization in
+          <Typography
+            sx={{ lineHeight: "2.1", textAlign: { xs: "center", lg: "left" } }}
+          >
+            As an Experienced Software Engineer with a specialization in
             Frontend, I possess expertise in architecting and maintaining
             scalable applications with a strong focus on performance, usability
             and accessibility. As an Accessibility Advocate, I founded
