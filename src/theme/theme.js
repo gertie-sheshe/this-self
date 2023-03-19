@@ -1,5 +1,7 @@
 import { Roboto } from "next/font/google";
 import { createTheme } from "@mui/material/styles";
+import { deepmerge } from "@mui/utils";
+
 import { red } from "@mui/material/colors";
 
 const FONT_FAMILY = '"Poppins", sans-serif';
@@ -19,7 +21,8 @@ const theme = createTheme({
   breakpoints,
   palette: {
     primary: {
-      main: "#1f2029",
+      // main: "#1f2029",
+      main: "#14151af5",
     },
     secondary: {
       main: "#fff",
@@ -31,6 +34,7 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: FONT_FAMILY,
+    lineHeight: "2.1",
     letterSpacing: "1px",
     h1: {
       fontSize: "2.4rem",
@@ -58,6 +62,7 @@ const theme = createTheme({
     },
     body1: {
       fontSize: "1.4rem",
+      lineHeight: "2.1",
     },
     body2: {
       fontSize: "0.8rem",
@@ -71,4 +76,27 @@ const theme = createTheme({
   },
 });
 
-export default theme;
+const customTheme = deepmerge(theme, {
+  typography: {
+    h2: {
+      fontSize: "1.5rem",
+      [theme.breakpoints.up("md")]: {
+        fontSize: "2.074rem",
+      },
+    },
+    body1: {
+      fontSize: "1.2rem",
+      [theme.breakpoints.up("md")]: {
+        fontSize: "1.4rem",
+      },
+    },
+    body2: {
+      fontSize: "0.8rem",
+      [theme.breakpoints.up("md")]: {
+        fontSize: "1rem",
+      },
+    },
+  },
+});
+
+export default customTheme;
