@@ -21,6 +21,7 @@ function WorkExperienceSection({ experienceData }) {
           {experienceData.map(
             ({ title, company, location, duration, description }) => (
               <Grid
+                key={company}
                 item
                 xs={{ xs: 12, lg: 12 }}
                 justifyContent="center"
