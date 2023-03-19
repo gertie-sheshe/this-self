@@ -1,19 +1,20 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
 import PropTypes from "prop-types";
-import { Section, Profile, Break } from "./SummarySectionStyles";
+import { Profile, Break } from "./SummarySectionStyles";
 
 import Avatar from "gertrudenyenyeshi/components/Avatar/Avatar";
 import SocialMediaBar from "gertrudenyenyeshi/components/SocialMediaBar";
 import Title from "gertrudenyenyeshi/components/Title";
 import Divider from "gertrudenyenyeshi/components/Divider";
+import SectionContainer from "../SectionContainer/SectionContainer";
 
 function SummarySection({ title, socials, description, avatar }) {
   if (!title) return; // title important for screen readers. Must be present
 
   return (
     <>
-      <Section>
+      <SectionContainer>
         <Title variant="h2" screenReaderOnly="true" title={title} />
         <Grid
           container
@@ -59,7 +60,6 @@ function SummarySection({ title, socials, description, avatar }) {
         <div>
           <Typography
             sx={{
-              lineHeight: "2.1",
               marginTop: { lg: "30px" },
               textAlign: { xs: "center", lg: "left" },
             }}
@@ -67,7 +67,7 @@ function SummarySection({ title, socials, description, avatar }) {
             {description}
           </Typography>
         </div>
-      </Section>
+      </SectionContainer>
     </>
   );
 }

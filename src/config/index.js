@@ -31,3 +31,57 @@ export const summarySectionProps = {
   socials,
   avatar,
 };
+
+// WORK EXPERIENCE SECTION
+export const workExperienceSectionProps = {
+  experienceData: [
+    {
+      title: "Founder",
+      company: "Accessibility Africa",
+      location: "Africa",
+      duration: "2022 - Present",
+      description:
+        "Provider of accessibility services, specializing in audits, training, workshops to help teams build a more accessible web.",
+    },
+    {
+      title: "Senior Frontend Engineer",
+      company: "Civic Tech Company",
+      location: "Cape Town, South Africa",
+      duration: "2020 - 2022",
+      description:
+        "Africa’s largest network of indigenous civic technology and open data laboratories.",
+    },
+    {
+      title: "Software Consultant (Frontend)",
+      company: "Anapanda",
+      duration: "2020",
+      location: "Nairobi",
+      description:
+        "Anapanda is a growth-centric company that helps professionals and organizations reach new levels of alignment, awareness and performance.",
+    },
+    {
+      title: "Web Engineer",
+      company: "BBC",
+      duration: "2018 - 2019",
+      location: "London, UK",
+      description:
+        "The BBC is the world leader in global breaking news, providing trusted, accurate, impartial and independent news ",
+    },
+    {
+      title: "Software Engineer",
+      company: "ShopKeep",
+      duration: "2017",
+      location: "New York",
+      description:
+        "Shopkeep is a cloud-based iPad point of sale featuring inventory management, detailed reporting and 25/7 support.",
+    },
+    {
+      title: "Software Engineer",
+      company: "Urbanstems",
+      location: "Washington D.C",
+      duration: "2016 - 2017",
+      description:
+        "Urbanstems is a flower delivery company based in Washington DC with offices in New York and Austin. ",
+    },
+  ],
+};
