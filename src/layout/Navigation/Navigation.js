@@ -18,8 +18,8 @@ function Navigation() {
         <StyledLink href="/">Home</StyledLink>
         <StyledLink href="/projects">Projects</StyledLink>
         <StyledLink href="/writing">Writing</StyledLink>
-        <StyledLink href="/accessibility">Accessibility</StyledLink>
         <StyledLink href="/speaking">Speaking</StyledLink>
+        <StyledLink href="/accessibility">Accessibility</StyledLink>
         <StyledLink href="/achievements">Achievements</StyledLink>
       </Grid>
     </NavBar>

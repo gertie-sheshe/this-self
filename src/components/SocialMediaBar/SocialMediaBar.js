@@ -20,7 +20,7 @@ const socialData = [
     name: "LinkedIn",
     component: <LinkedIn />,
     href: "https://www.linkedin.com/in/gertrudenyenyeshi",
-    description: "LinkedIn Portfolio",
+    description: "LinkedIn Profile",
   },
 ];
 
