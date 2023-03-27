@@ -28,5 +28,9 @@ export const StyledLink = styled(Link)(
     "&:hover": {
       textDecoration: "underline",
     },
+    "&.active": {
+      textDecoration: "underline",
+      textUnderlineOffset: "5px",
+    },
   })
 );

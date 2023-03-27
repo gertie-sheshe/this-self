@@ -1,5 +1,33 @@
 import avatarImg from "../../public/avatar.png";
 
+// NAVIGATION
+export const navLinks = [
+  {
+    href: "/",
+    name: "Home",
+  },
+  {
+    name: "Projects",
+    href: "/projects",
+  },
+  {
+    name: "Writing",
+    href: "/writing",
+  },
+  {
+    name: "Speaking",
+    href: "/speaking",
+  },
+  {
+    name: "Accessibility",
+    href: "/accessibility",
+  },
+  {
+    name: "Achievements",
+    href: "/achievements",
+  },
+];
+
 // SUMMARY SECTION HOME PAGE
 const socials = [
   {
