@@ -1,10 +1,13 @@
 import React from "react";
-import { Grid } from "@mui/material";
+import { Grid, useMediaQuery } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
 import { projects } from "gertrudenyenyeshi/config";
 import Title from "gertrudenyenyeshi/components/Title";
 import ProjectsList from "gertrudenyenyeshi/layout/ProjectsList";
 
 function Projects() {
+  const theme = useTheme();
+  const lgScreen = useMediaQuery(theme.breakpoints.up("md"));
   return (
     <>
       <Grid container>
@@ -18,16 +21,20 @@ function Projects() {
             justifyContent: "center",
           }}
         >
-          <Title
-            title="Projects"
-            sx={{
-              textTransform: "uppercase",
-              fontWeight: "bold",
-              fontSize: "140px !important",
-              opacity: "3%",
-              writingMode: "vertical-rl",
-            }}
-          />
+          {lgScreen ? (
+            <Title
+              title="Projects"
+              sx={{
+                textTransform: "uppercase",
+                fontWeight: "bold",
+                fontSize: "140px !important",
+                opacity: "3%",
+                writingMode: "vertical-rl",
+              }}
+            />
+          ) : (
+            <Title title="projects" screenReaderOnly="true" />
+          )}
         </Grid>
         <Grid item xs={10} sx={{ height: "100vh", overflow: "scroll" }}>
           <ProjectsList projects={projects} />
