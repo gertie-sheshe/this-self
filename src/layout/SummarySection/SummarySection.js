@@ -41,8 +41,8 @@ function SummarySection({ title, socials, description, avatar }) {
                 textAlign: { xs: "center", lg: "left" },
               }}
             >
-              I&apos;m Gertrude Nyenyeshi <Break /> Software Engineer (Frontend){" "}
-              <Break /> Accessibility Advocate
+              I&apos;m Gertrude Nyenyeshi <Break /> Senior Software Engineer
+              (Frontend) <Break /> Accessibility Advocate
             </Typography>
             <Grid>
               <Divider sx={{ marginTop: "40px", marginBottom: "20px" }} />

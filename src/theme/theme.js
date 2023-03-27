@@ -21,7 +21,7 @@ const theme = createTheme({
   breakpoints,
   palette: {
     primary: {
-      // main: "#1f2029",
+      dark: "#1f2029",
       main: "#14151af5",
     },
     secondary: {

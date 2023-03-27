@@ -7,7 +7,7 @@ export const Container = styled("div")(
       padding: `0 ${typography.pxToRem(100)}`,
     },
     [breakpoints.up("md")]: {
-      padding: `0 ${typography.pxToRem(300)}`,
+      padding: `0 ${typography.pxToRem(150)}`,
     },
   })
 );

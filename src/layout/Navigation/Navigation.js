@@ -1,8 +1,13 @@
 import React from "react";
-import { Grid, Typography } from "@mui/material";
+import { useRouter } from "next/router";
+import { Grid } from "@mui/material";
+import { navLinks } from "gertrudenyenyeshi/config";
 import { StyledLink, NavBar } from "./NavigationStyles";
 
 function Navigation() {
+  const router = useRouter();
+  const currentRoute = router.pathname;
+
   return (
     <NavBar>
       <Grid
@@ -15,12 +20,15 @@ function Navigation() {
           padding: { xs: "20px 0", md: 0 },
         }}
       >
-        <StyledLink href="/">Home</StyledLink>
-        <StyledLink href="/projects">Projects</StyledLink>
-        <StyledLink href="/writing">Writing</StyledLink>
-        <StyledLink href="/speaking">Speaking</StyledLink>
-        <StyledLink href="/accessibility">Accessibility</StyledLink>
-        <StyledLink href="/achievements">Achievements</StyledLink>
+        {navLinks.map(({ href, name }) => (
+          <StyledLink
+            className={currentRoute === href ? "active" : ""}
+            key={href}
+            href={href}
+          >
+            {name}
+          </StyledLink>
+        ))}
       </Grid>
     </NavBar>
   );
