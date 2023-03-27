@@ -114,6 +114,93 @@ export const workExperienceSectionProps = {
   ],
 };
 
+// WRITING PAGE
+export const articles = [
+  {
+    title: "Strategies for a Resilient Frontend",
+    published: "December 2022",
+    href: "https://www.nyenyeshi.dev/frontend/strategies-for-a-resilient-frontend",
+  },
+  {
+    title: "Request Retries on the Frontend: What to Think About",
+    published: "December 2022",
+    href: "https://www.nyenyeshi.dev/frontend/request-retries-on-the-frontend-what-to-think-about",
+  },
+  {
+    title: "Part 1: Out of The Tar Pit - Complexity and Causes",
+    published: "November 2022",
+    href: "https://www.nyenyeshi.dev/other/part-1-out-of-the-tar-pit-complexity-and-causes",
+  },
+  {
+    title: "Testing for Web Accessibility",
+    published: "September 2022",
+    href: "https://www.nyenyeshi.dev/accessibility/testing-for-web-accessibility",
+  },
+  {
+    title: "Web Accessibility for Developers",
+    published: "September 2022",
+    href: "https://www.nyenyeshi.dev/accessibility/web-accessibility-for-developers",
+  },
+  {
+    title: "What is Web Accessibility and Why it Matters.",
+    published: "September 2022",
+    href: "https://www.nyenyeshi.dev/accessibility/what-is-web-accessibility-and-why-it-matters",
+  },
+  {
+    title: "Chaos Engineering on the Front End: Building Resilient UIs",
+    published: "August 2022",
+    href: "https://www.nyenyeshi.dev/frontend/chaos-engineering-on-the-front-end-building-resilient-uis",
+  },
+  {
+    title: "Understanding Chaos Engineering",
+    published: "August 2022",
+    href: "https://www.nyenyeshi.dev/other/understanding-chaos-engineering",
+  },
+  {
+    title:
+      "Building my Technical Blog with NextJS, SanityCMS, Sanity Portable/Text-To-React, Styled-Components + Netlify",
+    published: "July 2022",
+    href: "https://www.nyenyeshi.dev/frontend/building-my-technical-blog-with-nextjs-sanitycms-sanity-portable-text-to-react-styled-components",
+  },
+  {
+    title: "Clean Code: Writing Readable Reducers.",
+    published: "July 2022",
+    href: "https://www.nyenyeshi.dev/frontend/clean-code-writing-readable-reducers",
+  },
+  {
+    title:
+      "State Management (and normalization?): React Hooks, React Query, RTK createEntityAdapter",
+    published: "July 2022",
+    href: "https://www.nyenyeshi.dev/frontend/state-management-and-normalization-react-hooks-react-query-rtk-createentityadapter",
+  },
+  {
+    title: "Frontend Complexity: Data + State Management",
+    published: "July 2022",
+    href: "https://www.nyenyeshi.dev/frontend/frontend-complexity-data-state-management",
+  },
+  {
+    title:
+      "Javascript Arrays: From Quadratic O(n^2) to Linear O(n) — Code Examples",
+    published: "July 2020",
+    href: "https://www.nyenyeshi.dev/other/javascript-arrays-from-quadratic-o-n-2-to-linear-o-n-code-examples",
+  },
+  {
+    title: "Functional JavaScript: Pure functions",
+    published: "September 2017",
+    href: "https://www.nyenyeshi.dev/other/functional-javascript-pure-functions",
+  },
+  {
+    title: "Functional Programming and Function Chaining in JavaScript",
+    published: "August 2017",
+    href: "https://www.nyenyeshi.dev/other/functional-programming-and-function-chaining-in-javascript",
+  },
+  {
+    title: "Sitting down with Kent Beck",
+    published: "December 2016",
+    href: "https://www.nyenyeshi.dev/other/sitting-down-with-kent-beck",
+  },
+];
+
 // PROJECTS PAGE
 export const projects = [
   {
