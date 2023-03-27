@@ -15,7 +15,7 @@ function Projects() {
           item
           xs={2}
           sx={{
-            display: "flex",
+            display: lgScreen ? "flex" : "none",
             alignItems: "center",
             height: "100vh",
             justifyContent: "center",
@@ -36,7 +36,11 @@ function Projects() {
             <Title title="projects" screenReaderOnly="true" />
           )}
         </Grid>
-        <Grid item xs={10} sx={{ height: "100vh", overflow: "scroll" }}>
+        <Grid
+          item
+          xs={lgScreen ? 10 : 12}
+          sx={{ height: "100vh", overflow: "scroll" }}
+        >
           <ProjectsList projects={projects} />
         </Grid>
       </Grid>
