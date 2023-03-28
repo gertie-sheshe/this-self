@@ -23,7 +23,6 @@ function WorkExperienceSection({ experienceData }) {
               <Grid
                 key={company}
                 item
-                xs={{ xs: 12, lg: 12 }}
                 justifyContent="center"
                 alignItems="center"
               >
@@ -47,7 +46,7 @@ function WorkExperienceSection({ experienceData }) {
                   </Typography>
                   <Typography
                     sx={{ marginBottom: "20px" }}
-                    variant="body2"
+                    variant="subtitle2"
                   >{`${company} | ${location} | ${duration}`}</Typography>
                   <Typography>{description}</Typography>
                 </ListItem>

@@ -1,11 +1,11 @@
 import React from "react";
 import { Grid, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
-import { projects } from "gertrudenyenyeshi/config";
+import { articles } from "gertrudenyenyeshi/config";
 import Title from "gertrudenyenyeshi/components/Title";
-import ProjectsList from "gertrudenyenyeshi/layout/ProjectsList";
+import ArticlesList from "gertrudenyenyeshi/layout/ArticlesList";
 
-function Projects() {
+function Writing() {
   const theme = useTheme();
   const lgScreen = useMediaQuery(theme.breakpoints.up("md"));
   return (
@@ -21,7 +21,7 @@ function Projects() {
         >
           {lgScreen ? (
             <Title
-              title="Projects"
+              title="Writing"
               sx={{
                 textTransform: "uppercase",
                 fontWeight: "bold",
@@ -31,15 +31,15 @@ function Projects() {
               }}
             />
           ) : (
-            <Title title="projects" screenReaderOnly="true" />
+            <Title title="Writing" screenReaderOnly="true" />
           )}
         </Grid>
         <Grid sx={{ height: "100vh", overflow: "scroll" }}>
-          <ProjectsList projects={projects} />
+          <ArticlesList articles={articles} />
         </Grid>
       </Grid>
     </>
   );
 }
 
-export default Projects;
+export default Writing;
