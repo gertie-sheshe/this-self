@@ -25,8 +25,9 @@ export const StyledLink = styled(Link)(
     [breakpoints.up("lg")]: {
       fontSize: "inherit",
     },
-    "&:hover": {
+    "&:hover, .active": {
       textDecoration: "underline",
+      textUnderlineOffset: "5px",
     },
     "&.active": {
       textDecoration: "underline",

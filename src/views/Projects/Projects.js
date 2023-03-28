@@ -10,15 +10,13 @@ function Projects() {
   const lgScreen = useMediaQuery(theme.breakpoints.up("md"));
   return (
     <>
-      <Grid container>
+      <Grid container flexWrap="nowrap">
         <Grid
-          item
-          xs={2}
           sx={{
             display: lgScreen ? "flex" : "none",
             alignItems: "center",
             height: "100vh",
-            justifyContent: "center",
+            flexWrap: "nowrap",
           }}
         >
           {lgScreen ? (
@@ -36,11 +34,7 @@ function Projects() {
             <Title title="projects" screenReaderOnly="true" />
           )}
         </Grid>
-        <Grid
-          item
-          xs={lgScreen ? 10 : 12}
-          sx={{ height: "100vh", overflow: "scroll" }}
-        >
+        <Grid sx={{ height: "100vh", overflow: "scroll" }}>
           <ProjectsList projects={projects} />
         </Grid>
       </Grid>

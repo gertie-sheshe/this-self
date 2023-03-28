@@ -19,7 +19,7 @@ function Avatar({ alt, src }) {
 
 Avatar.propTypes = {
   alt: PropTypes.string,
-  src: PropTypes.string,
+  src: PropTypes.object,
 };
 
 export default Avatar;

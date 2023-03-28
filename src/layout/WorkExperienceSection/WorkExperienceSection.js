@@ -23,7 +23,7 @@ function WorkExperienceSection({ experienceData }) {
               <Grid
                 key={company}
                 item
-                xs={{ xs: 12, lg: 12 }}
+                // sx={{ xs: 12, lg: 12 }}
                 justifyContent="center"
                 alignItems="center"
               >
