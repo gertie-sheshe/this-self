@@ -5,8 +5,6 @@ import { articles } from "gertrudenyenyeshi/config";
 import Title from "gertrudenyenyeshi/components/Title";
 import ArticlesList from "gertrudenyenyeshi/layout/ArticlesList";
 
-console.log("ARTICLES", ArticlesList);
-
 function Writing() {
   const theme = useTheme();
   const lgScreen = useMediaQuery(theme.breakpoints.up("md"));
