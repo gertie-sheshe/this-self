@@ -31,7 +31,7 @@ function SocialMediaBar({ socialData }) {
             >
               {componentMap[name]}
               <Typography
-                variant="body2"
+                variant="subtitle2"
                 sx={{ display: "inline", marginLeft: "10px" }}
               >
                 {description}

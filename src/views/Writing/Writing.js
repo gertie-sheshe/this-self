@@ -1,9 +1,11 @@
 import React from "react";
 import { Grid, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
-import { projects } from "gertrudenyenyeshi/config";
+import { articles } from "gertrudenyenyeshi/config";
 import Title from "gertrudenyenyeshi/components/Title";
-import ProjectsList from "gertrudenyenyeshi/layout/ProjectsList";
+import ArticlesList from "gertrudenyenyeshi/layout/ArticlesList";
+
+console.log("ARTICLES", ArticlesList);
 
 function Writing() {
   const theme = useTheme();
@@ -31,11 +33,11 @@ function Writing() {
               }}
             />
           ) : (
-            <Title title="projects" screenReaderOnly="true" />
+            <Title title="Writing" screenReaderOnly="true" />
           )}
         </Grid>
         <Grid sx={{ height: "100vh", overflow: "scroll" }}>
-          {/* <ProjectsList projects={projects} /> */}
+          <ArticlesList articles={articles} />
         </Grid>
       </Grid>
     </>

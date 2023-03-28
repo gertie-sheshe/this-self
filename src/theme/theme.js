@@ -74,6 +74,15 @@ const theme = createTheme({
       fontSize: "0.8rem",
     },
   },
+  components: {
+    MuiTypography: {
+      defaultProps: {
+        variantMapping: {
+          subtitle2: "p",
+        },
+      },
+    },
+  },
 });
 
 const customTheme = deepmerge(theme, {
@@ -91,6 +100,13 @@ const customTheme = deepmerge(theme, {
       },
     },
     body2: {
+      fontSize: "1rem",
+      lineHeight: "2",
+      [theme.breakpoints.up("md")]: {
+        fontSize: "1.25rem",
+      },
+    },
+    subtitle2: {
       fontSize: "0.8rem",
       [theme.breakpoints.up("md")]: {
         fontSize: "1rem",
