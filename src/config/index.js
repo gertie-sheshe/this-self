@@ -134,6 +134,12 @@ export const achievements = [
       "I am proud to be recognized as an accessibility champion. This distinction highlights my commitment and efforts towards promoting accessibility in the digital space",
   },
   {
+    title: "Founded Accessibility Africa",
+    description:
+      "Lead conversations, facilitate workshops and offer trainings on Web Accessibility across the African Tech Ecosystem to create awareness and help developers/designers build a more inclusive and accessible web.",
+    href: "https://twitter.com/a11yafrica?lang=en",
+  },
+  {
     title: "Accepted into Microsoft LEAP, Senior Software Engineer Cohort",
     description:
       "A program designed to provide Senior Engineers with the skills, knowledge and experience they need to take their careers to the next level.",
@@ -147,6 +153,44 @@ export const achievements = [
     title: "6 Month Mentorship with Gertrude",
     description:
       "I guided six exceptional women across Africa (Kenya, Nigeria and South Africa) in the field of software engineering with a focus on frontend development. This was an opportunity to share my expertise and experience with the next generation of tech leaders.",
+  },
+  {
+    title: "Interviewed by Facebook's (Meta) Head of Global Programs",
+    description:
+      "I shared on how I was able to build some of the largest communities in SSA during Facebook's SSA iD8 Summit 2019",
+    href: "https://www.facebook.com/FacebookforDevelopers/videos/427487181251285/UzpfSTEwMDAwMDIyNzQxNzI0OTozNzY4NzA2ODQ2NDgwMTky/",
+  },
+  {
+    title: "Celebrated by Facebook (Meta) as a high achiever in SSA",
+    description:
+      "Recognized and highlighted by Facebook (Meta) for the work I do",
+    href: "https://awpnetwork.com/2020/03/facebook-celebrates-achievers-across-sub-saharan-african-ssa-following-international-womens-day/",
+  },
+  {
+    title: "Interviewed by Kenya Television Network (KTN)",
+    description:
+      "I shared about the work I do in helping women in the community and growing the developer community",
+    href: "https://www.youtube.com/watch?v=4WxW7kjT3hs&t=25s",
+  },
+  {
+    title: "Featured and Spotlighted by Parents Magazine",
+    description:
+      "A spread in Parents Magazine highlighting and celebrating my work",
+  },
+  {
+    title: "Selected for Andela's 2017 Developer in Residence Program",
+    description:
+      "3 month stay in New York interfacing with Andela Sales and Marketing teams, immersing in tech communities in the USA and networking with the developer communities.",
+  },
+  {
+    title: "Lead, Facebook Developer Circle: Eldoret",
+    description: "Grew the community from 60 members to 2.1k members.",
+    href: "https://www.facebook.com/groups/DevCEldoret/",
+  },
+  {
+    title: "Co-Founded TechInPink",
+    description:
+      "An initiative in Kenya and Nigeria to increase the number of women participation in Technology",
   },
 ];
 
