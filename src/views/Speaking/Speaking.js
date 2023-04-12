@@ -5,7 +5,7 @@ import { talks } from "gertrudenyenyeshi/config";
 import Title from "gertrudenyenyeshi/components/Title";
 import TalksList from "gertrudenyenyeshi/layout/TalksList";
 
-function Talks() {
+function Speaking() {
   const theme = useTheme();
   const lgScreen = useMediaQuery(theme.breakpoints.up("md"));
   return (
@@ -42,4 +42,4 @@ function Talks() {
   );
 }
 
-export default Talks;
+export default Speaking;

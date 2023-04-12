@@ -1,3 +1,3 @@
-import Talks from "./Speaking";
+import Speaking from "./Speaking";
 
-export default Talks;
+export default Speaking;
