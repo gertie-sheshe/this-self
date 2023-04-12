@@ -119,69 +119,95 @@ export const articles = [
   {
     title: "Strategies for a Resilient Frontend",
     published: "December 2022",
+    description:
+      "Considering the resilience of your frontend is an essential part of modern web development. It involves implementing and designing strategies that ensure the frontend remains stable, responsive and usable, especially in the face of failures and challenges. In this article, I will explore strategies and techniques you can explore in order to build frontend applications that are robust and reliable.",
     href: "https://www.nyenyeshi.dev/frontend/strategies-for-a-resilient-frontend",
   },
   {
     title: "Request Retries on the Frontend: What to Think About",
     published: "December 2022",
+    description:
+      "When thinking about resilience while building frontend applications, implementing retries for slow or failed network requests is a possible solution to be explored. This approach allows the frontend to automatically retry requests, which can improve stability and reliability of the application.   However, it is important to think about how to carefully implement them in order not to run into problems like data duplication, performance problems and masking of underlying issues.",
     href: "https://www.nyenyeshi.dev/frontend/request-retries-on-the-frontend-what-to-think-about",
   },
   {
     title: "Part 1: Out of The Tar Pit - Complexity and Causes",
     published: "November 2022",
+    description:
+      "One of the main challenges in maintaining enterprise software is having to deal with system complexity. Out of The Tar Pit, a paper written by Ben Mosely and Peter Marks aims to identify main reasons behind complexity and how to go about eliminating or reducing it. This is a summary of my understanding of the paper.",
     href: "https://www.nyenyeshi.dev/other/part-1-out-of-the-tar-pit-complexity-and-causes",
   },
   {
     title: "Testing for Web Accessibility",
     published: "September 2022",
+    description:
+      "Understanding how different users use and navigate the web informs us on the best way to test our products to ensure they are meeting everyone’s needs.",
     href: "https://www.nyenyeshi.dev/accessibility/testing-for-web-accessibility",
   },
   {
     title: "Web Accessibility for Developers",
     published: "September 2022",
+    description:
+      "Developers spend a good part of their time learning how to build better. How to improve the Performance, Scalability, Security, Usability, Resilience etc of their applications and systems. Accessibility is no different and effort should be spent on improving it.",
     href: "https://www.nyenyeshi.dev/accessibility/web-accessibility-for-developers",
   },
   {
     title: "What is Web Accessibility and Why it Matters.",
     published: "September 2022",
+    description:
+      "Millions of diverse users browse the web daily and these users navigate and interact with the web differently. Building a more accessible web ensures a good user experience for all users on the web. Originally written for Accessibility Africa",
     href: "https://www.nyenyeshi.dev/accessibility/what-is-web-accessibility-and-why-it-matters",
   },
   {
     title: "Chaos Engineering on the Front End: Building Resilient UIs",
     published: "August 2022",
+    description:
+      "Chaos engineering is basically building the resilience of your systems by deliberately introducing faults, errors and failures at random. By doing this, your team is then able to build robust systems able to handle different failure scenarios.",
     href: "https://www.nyenyeshi.dev/frontend/chaos-engineering-on-the-front-end-building-resilient-uis",
   },
   {
     title: "Understanding Chaos Engineering",
     published: "August 2022",
+    description:
+      "I came across the term Chaos Engineering while reading Fundamentals of Software Architecture by Mark Richards and Neal Ford a few weeks ago. I may have heard the term before - but I did not approach it with the same amount of interest that I have now.",
     href: "https://www.nyenyeshi.dev/other/understanding-chaos-engineering",
   },
   {
     title:
       "Building my Technical Blog with NextJS, SanityCMS, Sanity Portable/Text-To-React, Styled-Components + Netlify",
     published: "July 2022",
+    description:
+      "Early July 2022, I moved my blog from Medium. This article entails the process and the technologies that I used.",
     href: "https://www.nyenyeshi.dev/frontend/building-my-technical-blog-with-nextjs-sanitycms-sanity-portable-text-to-react-styled-components",
   },
   {
     title: "Clean Code: Writing Readable Reducers.",
     published: "July 2022",
+    description:
+      "As I was reading the definitions of what different people think of as clean code in the book Clean Code by Robert Martin, my favorites were:  “Clean code is simple and direct. Clean code reads like well-written prose. Clean code never obscures the designer’s intent but rather is full of crisp abstractions and straightforward lines of control. - Grady Booch, author of Object Oriented Analysis and Design with Applications”",
     href: "https://www.nyenyeshi.dev/frontend/clean-code-writing-readable-reducers",
   },
   {
     title:
       "State Management (and normalization?): React Hooks, React Query, RTK createEntityAdapter",
     published: "July 2022",
+    description:
+      "This article is simply written as a review of tools and not in any way recommending how things should be done. Data fetching is quite an important task on the frontend, and how you structure it determines how easy things are for developers and users. Effective data fetching improves performance and usability of your application, if well implemented, it reduces the hoops developers have to jump just to deliver a smooth experience.",
     href: "https://www.nyenyeshi.dev/frontend/state-management-and-normalization-react-hooks-react-query-rtk-createentityadapter",
   },
   {
     title: "Frontend Complexity: Data + State Management",
     published: "July 2022",
+    description:
+      "Over the years, frontend development has grown in complexity and it is no longer about writing simple pages with HTML/CSS/Javascript. Much more skill and a lot more effort is now needed in order to deliver smooth user experiences.  Gone are the days when most of the web pages on the internet consisted of static sites with little to no interactivity. ",
     href: "https://www.nyenyeshi.dev/frontend/frontend-complexity-data-state-management",
   },
   {
     title:
       "Javascript Arrays: From Quadratic O(n^2) to Linear O(n) — Code Examples",
     published: "July 2020",
+    description:
+      "This article aims to show how to improve the performance of solutions implemented using Javascript arrays.    In my last article, I gave a brief of time complexities of some popular Javascript array methods. In this article, I will give three code examples of how to improve the performance in array solutions.",
     href: "https://www.nyenyeshi.dev/other/javascript-arrays-from-quadratic-o-n-2-to-linear-o-n-code-examples",
   },
   {
@@ -192,11 +218,15 @@ export const articles = [
   {
     title: "Functional Programming and Function Chaining in JavaScript",
     published: "August 2017",
+    description:
+      "In my previous article, I talked about what functional programming is and a simple example of how to write non-functional code to functional. I did give a brief description of what a pure function is but I will dig deeper in this article",
     href: "https://www.nyenyeshi.dev/other/functional-programming-and-function-chaining-in-javascript",
   },
   {
     title: "Sitting down with Kent Beck",
     published: "December 2016",
+    description:
+      "Last week on Wednesday, I had the opportunity to sit down and have a conversation with Kent Beck for over an hour. Kent Beck is an American software developer, the creator of extreme programming, the author of books like Test Driven Development By Example, and is currently a Technical Coach at Facebook.",
     href: "https://www.nyenyeshi.dev/other/sitting-down-with-kent-beck",
   },
 ];

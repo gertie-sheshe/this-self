@@ -1,14 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ListItem as MuiListItem } from "@mui/material";
-import Divider from "gertrudenyenyeshi/components/Divider";
+import PlainListItem from "./PlainListItem";
+import LinkWrapper from "./LinkWrapper";
 
-function ListItem({ children }) {
+function ListItem({ href, ...props }) {
   return (
-    <MuiListItem sx={{ display: "block" }}>
-      {children}
-      <Divider sx={{ margin: "20px 0" }} />
-    </MuiListItem>
+    <>
+      {href ? (
+        <LinkWrapper href={href}>
+          <PlainListItem {...props} />
+        </LinkWrapper>
+      ) : (
+        <PlainListItem {...props} />
+      )}
+    </>
   );
 }
 
