@@ -4,16 +4,15 @@ import { ListItem as MuiListItem, Typography } from "@mui/material";
 import Divider from "gertrudenyenyeshi/components/Divider";
 
 function PlainListItem({ title, description, location, published }) {
+  if (!title) return;
   return (
     <MuiListItem sx={{ display: "block" }}>
-      {title && (
-        <Typography
-          className="title"
-          sx={{ textTransform: "uppercase", fontWeight: "bold" }}
-        >
-          {title}
-        </Typography>
-      )}
+      <Typography
+        className="title"
+        sx={{ textTransform: "uppercase", fontWeight: "bold" }}
+      >
+        {title}
+      </Typography>
       {published && (
         <Typography sx={{ margin: "10px 0" }} variant="subtitle2">
           {`Published ${published}`}
@@ -26,7 +25,7 @@ function PlainListItem({ title, description, location, published }) {
 }
 
 PlainListItem.propTypes = {
-  title: PropTypes.string,
+  title: PropTypes.string.isRequired,
   description: PropTypes.string,
   location: PropTypes.string,
   published: PropTypes.string,

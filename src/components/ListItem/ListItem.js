@@ -18,7 +18,7 @@ function ListItem({ href, ...props }) {
 }
 
 ListItem.propTypes = {
-  children: PropTypes.node,
+  href: PropTypes.string,
 };
 
 export default ListItem;
