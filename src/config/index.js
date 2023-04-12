@@ -114,6 +114,38 @@ export const workExperienceSectionProps = {
   ],
 };
 
+// ACCESSIBILITY PAGE
+const sessions = [
+  {
+    title: "Accessibility in Javascript Applications with Purity Birir",
+    href: "https://twitter.com/a11yafrica/status/1636686340979867650",
+  },
+  {
+    title: "The Disability and Technology Paradox with Mark Renja",
+    href: "https://twitter.com/a11yafrica/status/1631552389546229760",
+  },
+  {
+    title: "Accessibility for iOS Apps with Angie Mugo",
+    href: "https://twitter.com/a11yafrica/status/1599737122717503488",
+  },
+  {
+    title: "Navigating the Web while blind with Eve Kibare",
+    href: "https://twitter.com/a11yafrica/status/1594605670954930176",
+  },
+  {
+    title: "Introduction to ARIA with Purity Birir",
+    href: "https://twitter.com/a11yafrica/status/1578032131032289286",
+  },
+  {
+    title: "Accessibility for React Applications with Austin Roy",
+    href: "https://twitter.com/a11yafrica/status/1574671916341886976",
+  },
+  {
+    title: "Web Accessibility for Developers with Gertrude Nyenyeshi",
+    href: "https://twitter.com/a11yafrica/status/1567906531672297473",
+  },
+];
+
 // ACHIEVEMENTS PAGE
 export const achievements = [
   {
