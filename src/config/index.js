@@ -114,6 +114,138 @@ export const workExperienceSectionProps = {
   ],
 };
 
+// SPEAKING PAGE
+export const talks = [
+  {
+    title: "Overcoming Career Challenges",
+    host: "Eldoret Women Techmakers, 2023",
+    date: "2023",
+    location: "Eldoret, Kenya",
+    description:
+      "Empowering individuals to navigate their professional journey with resilience and confidence, through practical guidance on overcoming career challenges",
+  },
+  {
+    title: "Building Accessible Web Apps: A Technical Deep Dive",
+    host: "LuxTech - Industry Experts, 2023",
+    date: "2023",
+    location: "Nairobi, Kenya",
+    description:
+      "A deep dive into the technical aspects of designing and building web apps that are inclusive and accessible.",
+  },
+  {
+    title: "She Talks Tech Podcast",
+    host: "She Talks Tech, 2023",
+    location: "South Africa",
+    description:
+      "Sharing insights and experiences from my personal career journey in the tech industry,",
+    date: "2023",
+  },
+  {
+    title: "Building the Web with Empathy",
+    host: "Women in Technology Network, 2022",
+    location: "Zambia",
+    description:
+      "Delving into the critical importance of accessibility in web development and design, and how empathy can be a driving force in building inclusive digital experiences",
+    date: "2022",
+  },
+  {
+    title: "Web Accessibility for Developers",
+    host: "Accessibility Africa, 2022",
+    location: "Africa",
+    description:
+      "Equipping developers with practical tools and processes to enhance web accessibility",
+    date: "2022",
+  },
+  {
+    title: "Testing for Web Accessibility",
+    host: "DeveloperISH, 2022",
+    location: "Nairobi, Kenya",
+    description:
+      "Sharing insights and practical techniques for both manual and automated testing of web accessibility",
+    date: "2022",
+  },
+  {
+    title: "Frontend Documentation",
+    host: "Meta Developer Circles - Lusaka, 2021",
+    description:
+      "Highlighting the importance of documenting the frontend of web applications and providing guidance on which areas to focus on",
+    location: "Lusaka, Zambia",
+    date: "2021",
+  },
+  {
+    title: "Accessibility in Civic Tech",
+    host: "Code for Africa, 2021",
+    description:
+      "Contributing to a panel discussion on the vital role of accessibility in civic tech, with insights and perspectives on building inclusive and accessible digital products for all users.",
+    location: "Africa",
+    date: "2021",
+  },
+  {
+    title: "Performant Javascript",
+    host: "Meta Developer Circles - Rwanda, 2020",
+    location: "Kigali, Rwanda",
+    description:
+      "practical tips on writing performant algorithms in Javascript",
+    date: "2020",
+  },
+  {
+    title: "Taking Accessibility with You",
+    host: "Indoni Conf, 2020",
+    location: "Cape Town, South Africa",
+    description:
+      "Sharing practical guidance and strategies on integrating accessibility into all phases of digital product development, from UX to Testing,",
+    date: "2020",
+  },
+  {
+    title: "Mentorship Panel",
+    host: "African Women in Technology, 2018",
+    location: "Nairobi, Kenya",
+    description:
+      "Contributing experiences to a mentorship panel at an event, exploring the significant benefits and value that mentorship can offer in one's career journey.",
+    date: "2018",
+  },
+  {
+    title: "Accessibility and You",
+    host: "DevCraft Kenya, 2018",
+    location: "Nairobi, Kenya",
+    description:
+      "Sharing actionable tips on how to effectively incorporate accessibility into every stage of digital product development",
+    date: "2018",
+  },
+  {
+    title: "Introduction to React and React Native",
+    host: "Meta Developer Circles - Nairobi, 2018",
+    location: "Nairobi",
+    description:
+      "Providing an introductory overview of React and React Native, in an informative talk geared towards developers interested in learning more about these Javascript libraries.",
+    date: "2018",
+  },
+  {
+    title: "Javascript Workshop",
+    host: "Riara University, 2018",
+    location: "Nairobi, Kenya",
+    description:
+      "Workshop for beginner-level learners on the fundamentals of Javascript for web development.",
+    date: "2018",
+  },
+  {
+    title: "Start from Scratch",
+    host: "TechInPink, 2017",
+    location: "Nairobi, Kenya",
+    description:
+      "A one-day workshop for beginners to learn about web development, covering the basics of HTML, CSS, and Javascript and equipping participants with the foundational skills to build their own websites.",
+    date: "2017",
+  },
+  {
+    title: "Panel at Google DevFest",
+    location: "Nairobi, Kenya",
+    host: "Google Developer Group - Nairobi, 2017",
+    description:
+      "Sharing experiences and insights on a career in tech as a panelist in an interactive Q&A session",
+    date: "2017",
+  },
+];
+
 // WRITING PAGE
 export const articles = [
   {

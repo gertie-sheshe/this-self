@@ -3,19 +3,19 @@ import PropTypes from "prop-types";
 import { List } from "@mui/material";
 import ListItem from "gertrudenyenyeshi/components/ListItem";
 
-function ArticlesList({ articles }) {
-  if (!articles) return;
+function TalksList({ talks }) {
+  if (!talks) return;
   return (
     <List sx={{ marginTop: "50px" }}>
-      {articles.map((article) => (
-        <ListItem key={article.title} {...article} />
+      {talks.map((talk) => (
+        <ListItem key={talk.title} {...talk} />
       ))}
     </List>
   );
 }
 
-ArticlesList.propTypes = {
-  articles: PropTypes.array,
+TalksList.propTypes = {
+  talks: PropTypes.array,
 };
 
-export default ArticlesList;
+export default TalksList;
