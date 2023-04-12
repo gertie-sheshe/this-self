@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { List } from "@mui/material";
-import Article from "gertrudenyenyeshi/components/Article";
+import ListItem from "gertrudenyenyeshi/components/ListItem";
 
 function ArticlesList({ articles }) {
   if (!articles) return;
   return (
     <List sx={{ marginTop: "50px" }}>
       {articles.map((project) => (
-        <Article key={project.href} {...project} />
+        <ListItem key={project.href} {...project} />
       ))}
     </List>
   );
