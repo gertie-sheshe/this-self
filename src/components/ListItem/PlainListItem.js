@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { ListItem as MuiListItem, Typography } from "@mui/material";
 import Divider from "gertrudenyenyeshi/components/Divider";
 
-function PlainListItem({ title, description, location, published }) {
+function PlainListItem({ title, description, location, published, host }) {
   if (!title) return;
   return (
     <MuiListItem sx={{ display: "block" }}>
@@ -16,6 +16,11 @@ function PlainListItem({ title, description, location, published }) {
       {published && (
         <Typography sx={{ margin: "10px 0" }} variant="subtitle2">
           {`Published ${published}`}
+        </Typography>
+      )}
+      {host && (
+        <Typography sx={{ margin: "10px 0" }} variant="subtitle2">
+          {host}
         </Typography>
       )}
       {description && <Typography variant="body2">{description}</Typography>}

@@ -8,7 +8,7 @@ function ProjectsList({ projects }) {
   return (
     <List sx={{ marginTop: "50px" }}>
       {projects.map((project) => (
-        <ListItem key={project.href} {...project} />
+        <ListItem key={project.title} {...project} />
       ))}
     </List>
   );
