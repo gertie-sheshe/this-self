@@ -114,6 +114,107 @@ export const workExperienceSectionProps = {
   ],
 };
 
+// SPEAKING PAGE
+export const talks = [
+  {
+    title: "Overcoming Career Challenges",
+    host: "Eldoret Women Techmakers, 2023",
+    date: "2023",
+    location: "Eldoret, Kenya",
+    description: "",
+  },
+  {
+    title: "Building Accessible Web Apps: A Technical Deep Dive",
+    host: "LuxTech - Industry Experts",
+    date: "2023",
+    location: "Nairobi, Kenya",
+    description: "",
+  },
+  {
+    title: "She Talks Tech Podcast",
+    host: "She Talks Tech",
+    location: "South Africa",
+    date: "2023",
+  },
+  {
+    title: "Building the Web with Empathy",
+    host: "Women in Technology Network",
+    location: "Zambia",
+    date: "2023",
+  },
+  {
+    title: "Web Accessibility for Developers",
+    host: "Accessibility Africa",
+    location: "Africa",
+    date: "2022",
+  },
+  {
+    title: "Testing for Web Accessibility",
+    host: "DeveloperISH",
+    location: "Nairobi, Kenya",
+    date: "2022",
+  },
+  {
+    title: "Frontend Documentation",
+    host: "Meta Developer Circles, Lusaka",
+    location: "Lusaka, Zambia",
+    date: "2021",
+  },
+  {
+    title: "Accessibility in Civic Tech",
+    host: "Code for Africa",
+    location: "Africa",
+    date: "2021",
+  },
+  {
+    title: "Performant Javascript",
+    host: "Meta Developer Circles, Rwanda",
+    location: "Kigali, Rwanda",
+    date: "2020",
+  },
+  {
+    title: "Taking Accessibility with You",
+    host: "Indoni Conf 2020",
+    location: "Cape Town, South Africa",
+    date: "2020",
+  },
+  {
+    title: "Mentorship Panel",
+    host: "African Women in Technology",
+    location: "Nairobi, Kenya",
+    date: "2018",
+  },
+  {
+    title: "Accessibility and You",
+    host: "DevCraft Kenya",
+    location: "Nairobi, Kenya",
+    date: "2018",
+  },
+  {
+    title: "Introduction to React and React Native",
+    host: "Meta Developer Circles, Nairobi",
+    location: "Nairobi",
+    date: "2018",
+  },
+  {
+    title: "Javascript Workshop",
+    host: "Riara University",
+    location: "2018",
+    date: "2018",
+  },
+  {
+    title: "Start from Scratch",
+    host: "TechInPink",
+    location: "Nairobi, Kenya",
+    date: "2017",
+  },
+  {
+    title: "Panel at Google DevFest",
+    location: "Nairobi, Kenya",
+    date: "2017",
+  },
+];
+
 // WRITING PAGE
 export const articles = [
   {
