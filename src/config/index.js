@@ -114,6 +114,42 @@ export const workExperienceSectionProps = {
   ],
 };
 
+// ACHIEVEMENTS PAGE
+export const achievements = [
+  {
+    title: "Spotlighted by Nation Media Group",
+    description: "Tech disruptors bridging the digital divide across sectors",
+    href: "https://nation.africa/kenya/news/gender/meet-tech-disruptors-bridging-the-digital-divide-across-sectors-4151200",
+  },
+  {
+    title:
+      "Accepted into Aaron Gustafson 2023 Mentorship for Web Professionals",
+    description:
+      "This year-long mentorship offers the opportunity to learn from Aaron Gustafson, a highly experienced Principal Accessibility Innovation Strategist and leader at Microsoft's AI for Accessibility Initiative",
+  },
+  {
+    title: "Spotlighted as an Accessibility Champion by The A11y Project",
+    href: "https://www.a11yproject.com/spotlight/gertrude-nyenyeshi/",
+    description:
+      "I am proud to be recognized as an accessibility champion. This distinction highlights my commitment and efforts towards promoting accessibility in the digital space",
+  },
+  {
+    title: "Accepted into Microsoft LEAP, Senior Software Engineer Cohort",
+    description:
+      "A program designed to provide Senior Engineers with the skills, knowledge and experience they need to take their careers to the next level.",
+  },
+  {
+    title: "Finished AWS Cloud Engineer Nanodegree",
+    description:
+      "Successfully completed and graduated from the AWS Cloud Engineer Nanodegree program offered by Udacity",
+  },
+  {
+    title: "6 Month Mentorship with Gertrude",
+    description:
+      "I guided six exceptional women across Africa (Kenya, Nigeria and South Africa) in the field of software engineering with a focus on frontend development. This was an opportunity to share my expertise and experience with the next generation of tech leaders.",
+  },
+];
+
 // SPEAKING PAGE
 export const talks = [
   {
