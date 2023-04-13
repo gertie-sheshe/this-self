@@ -115,33 +115,45 @@ export const workExperienceSectionProps = {
 };
 
 // ACCESSIBILITY PAGE
-const sessions = [
+export const sessions = [
   {
     title: "Accessibility in Javascript Applications with Purity Birir",
+    description:
+      "Best practices and techniques to create better user experiences.",
     href: "https://twitter.com/a11yafrica/status/1636686340979867650",
   },
   {
     title: "The Disability and Technology Paradox with Mark Renja",
+    description: "How can tech platforms include disabled people?",
     href: "https://twitter.com/a11yafrica/status/1631552389546229760",
   },
   {
     title: "Accessibility for iOS Apps with Angie Mugo",
+    description:
+      "Best practices for how to build accessible iOS apps for all users.",
     href: "https://twitter.com/a11yafrica/status/1599737122717503488",
   },
   {
     title: "Navigating the Web while blind with Eve Kibare",
+    description:
+      "Eve shares her experience navigating the web while blind, the tools she uses and how the web can be improved for people like her.",
     href: "https://twitter.com/a11yafrica/status/1594605670954930176",
   },
   {
     title: "Introduction to ARIA with Purity Birir",
+    description:
+      "Learn how to improve your website accessibility with ARIA (Accessible Rich Interface Applications)",
     href: "https://twitter.com/a11yafrica/status/1578032131032289286",
   },
   {
     title: "Accessibility for React Applications with Austin Roy",
+    description: "Accessibility tips and tools for React developers",
     href: "https://twitter.com/a11yafrica/status/1574671916341886976",
   },
   {
     title: "Web Accessibility for Developers with Gertrude Nyenyeshi",
+    description:
+      "Tools and Techniques to start integrating into your workflow.",
     href: "https://twitter.com/a11yafrica/status/1567906531672297473",
   },
 ];

@@ -6,7 +6,7 @@ import Divider from "gertrudenyenyeshi/components/Divider";
 function PlainListItem({ title, description, location, published, host }) {
   if (!title) return;
   return (
-    <MuiListItem sx={{ display: "block" }}>
+    <MuiListItem sx={{ display: "block", padding: 0 }}>
       <Typography
         className="title"
         sx={{ textTransform: "uppercase", fontWeight: "bold" }}
