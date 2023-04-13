@@ -55,7 +55,7 @@ const avatar = {
 export const summarySectionProps = {
   title: "Work and Profile Summary",
   description:
-    "I am an Experienced Software Engineer with a specialization in Frontend. I possess expertise in architecting and maintaining scalable applications with a strong focus on performance, usability and accessibility. As an Accessibility Advocate, I founded Accessibility Africa to raise awareness and promote training and conversations around accessibility. I have a proven track record of building and managing developer communities, and I take pride in providing mentorship and guidance to junior engineers.",
+    "I am a Senior Software Engineer (Frontend). I possess expertise in architecting and maintaining scalable applications with a strong focus on performance, usability and accessibility. As an Accessibility Advocate, I founded Accessibility Africa to raise awareness and promote training and conversations around accessibility. I have a proven track record of building and managing developer communities, and I take pride in providing mentorship and guidance to junior engineers.",
   socials,
   avatar,
 };
@@ -150,20 +150,20 @@ const sessions = [
 export const achievements = [
   {
     title: "Spotlighted by Nation Media Group",
-    description: "Tech disruptors bridging the digital divide across sectors",
+    description: "Tech disruptors bridging the digital divide across sectors.",
     href: "https://nation.africa/kenya/news/gender/meet-tech-disruptors-bridging-the-digital-divide-across-sectors-4151200",
   },
   {
     title:
       "Accepted into Aaron Gustafson 2023 Mentorship for Web Professionals",
     description:
-      "This year-long mentorship offers the opportunity to learn from Aaron Gustafson, a highly experienced Principal Accessibility Innovation Strategist and leader at Microsoft's AI for Accessibility Initiative",
+      "This year-long mentorship offers the opportunity to learn from Aaron Gustafson, a highly experienced Principal Accessibility Innovation Strategist and leader at Microsoft's AI for Accessibility Initiative.",
   },
   {
     title: "Spotlighted as an Accessibility Champion by The A11y Project",
     href: "https://www.a11yproject.com/spotlight/gertrude-nyenyeshi/",
     description:
-      "I am proud to be recognized as an accessibility champion. This distinction highlights my commitment and efforts towards promoting accessibility in the digital space",
+      "I am proud to be recognized as an accessibility champion. This distinction highlights my commitment and efforts towards promoting accessibility in the digital space.",
   },
   {
     title: "Founded Accessibility Africa",
@@ -179,7 +179,7 @@ export const achievements = [
   {
     title: "Finished AWS Cloud Engineer Nanodegree",
     description:
-      "Successfully completed and graduated from the AWS Cloud Engineer Nanodegree program offered by Udacity",
+      "Successfully completed and graduated from the AWS Cloud Engineer Nanodegree program offered by Udacity.",
   },
   {
     title: "6 Month Mentorship with Gertrude",
@@ -189,25 +189,25 @@ export const achievements = [
   {
     title: "Interviewed by Facebook's (Meta) Head of Global Programs",
     description:
-      "I shared on how I was able to build some of the largest communities in SSA during Facebook's SSA iD8 Summit 2019",
+      "I shared on how I was able to build some of the largest communities in SSA during Facebook's SSA iD8 Summit 2019.",
     href: "https://www.facebook.com/FacebookforDevelopers/videos/427487181251285/UzpfSTEwMDAwMDIyNzQxNzI0OTozNzY4NzA2ODQ2NDgwMTky/",
   },
   {
     title: "Celebrated by Facebook (Meta) as a high achiever in SSA",
     description:
-      "Recognized and highlighted by Facebook (Meta) for the work I do",
+      "Recognized and highlighted by Facebook (Meta) for the work I do.",
     href: "https://awpnetwork.com/2020/03/facebook-celebrates-achievers-across-sub-saharan-african-ssa-following-international-womens-day/",
   },
   {
     title: "Interviewed by Kenya Television Network (KTN)",
     description:
-      "I shared about the work I do in helping women in the community and growing the developer community",
+      "I shared about the work I do in helping women in the community and growing the developer community.",
     href: "https://www.youtube.com/watch?v=4WxW7kjT3hs&t=25s",
   },
   {
     title: "Featured and Spotlighted by Parents Magazine",
     description:
-      "A spread in Parents Magazine highlighting and celebrating my work",
+      "A spread in Parents Magazine highlighting and celebrating my work.",
   },
   {
     title: "Selected for Andela's 2017 Developer in Residence Program",
@@ -222,7 +222,7 @@ export const achievements = [
   {
     title: "Co-Founded TechInPink",
     description:
-      "An initiative in Kenya and Nigeria to increase the number of women participation in Technology",
+      "An initiative in Kenya and Nigeria to increase the number of women participation in Technology.",
   },
 ];
 
