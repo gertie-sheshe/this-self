@@ -1,10 +1,25 @@
-import React from "react";
-// import { Drawer, List, ListItem } from "@mui/material";
+import React, { useState } from "react";
+import { Drawer, List, ListItem, Box, Button } from "@mui/material";
 
-const MobileNavigation = () => {
+const MobileNavigation = ({ navLinks }) => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const toggleDrawer = (open) => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+
+    setIsDrawerOpen(open);
+  };
   return (
     <>
-      <p>Mobile Nav</p>
+      <Button onClick={toggleDrawer(true)}>Menu</Button>
+      <Drawer anchor="left" open={isDrawerOpen} onClose={toggleDrawer(false)}>
+        ola
+      </Drawer>
     </>
   );
 };

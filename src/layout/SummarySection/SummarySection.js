@@ -42,7 +42,7 @@ function SummarySection({ title, socials, description, avatar }) {
               }}
             >
               I&apos;m Gertrude Nyenyeshi <Break /> Senior Software Engineer
-              (Frontend) <Break /> Accessibility Advocate
+              (Frontend) <Break /> Founder, Accessibility Africa
             </Typography>
             <Grid>
               <Divider sx={{ marginTop: "40px", marginBottom: "20px" }} />
