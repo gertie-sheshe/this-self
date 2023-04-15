@@ -23,7 +23,7 @@ const MobileNavigation = ({ navLinks }) => {
         <Box onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
           <List>
             {navLinks.map(({ href, name }) => (
-              <ListItem>
+              <ListItem key={name}>
                 <StyledLink href={href}>{name}</StyledLink>
               </ListItem>
             ))}
