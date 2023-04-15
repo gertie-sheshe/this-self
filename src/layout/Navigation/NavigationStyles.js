@@ -11,8 +11,8 @@ export const NavBar = styled("nav")(({ theme: { breakpoints, palette } }) => ({
 }));
 
 export const StyledLink = styled(Link)(
-  ({ theme: { palette, breakpoints } }) => ({
-    color: palette.secondary.main,
+  ({ theme: { palette, breakpoints }, textColor }) => ({
+    color: textColor || palette.secondary.main,
     fontWeight: "bold",
     fontSize: "1.2rem",
     textTransform: "uppercase",

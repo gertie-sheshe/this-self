@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+
 import { Drawer, List, ListItem, Box, Button } from "@mui/material";
+import { StyledLink } from "./NavigationStyles";
 
 const MobileNavigation = ({ navLinks }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -18,7 +20,15 @@ const MobileNavigation = ({ navLinks }) => {
     <>
       <Button onClick={toggleDrawer(true)}>Menu</Button>
       <Drawer anchor="left" open={isDrawerOpen} onClose={toggleDrawer(false)}>
-        ola
+        <Box onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
+          <List>
+            {navLinks.map(({ href, name }) => (
+              <ListItem>
+                <StyledLink href={href}>{name}</StyledLink>
+              </ListItem>
+            ))}
+          </List>
+        </Box>
       </Drawer>
     </>
   );
