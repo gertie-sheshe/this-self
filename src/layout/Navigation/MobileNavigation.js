@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
-import { Drawer, List, ListItem, Box, Button } from "@mui/material";
-import { StyledLink } from "./NavigationStyles";
+import { Drawer, List, ListItem, Grid, Button } from "@mui/material";
+import { Menu } from "@mui/icons-material";
+
+import { StyledLink, BoxContainer, MenuButton } from "./NavigationStyles";
 
 const MobileNavigation = ({ navLinks }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -18,9 +20,16 @@ const MobileNavigation = ({ navLinks }) => {
   };
   return (
     <>
-      <Button onClick={toggleDrawer(true)}>Menu</Button>
+      <Grid container>
+        <MenuButton aria-label="Menu" onClick={toggleDrawer(true)}>
+          {<Menu fontSize="large" />}
+        </MenuButton>
+      </Grid>
       <Drawer anchor="left" open={isDrawerOpen} onClose={toggleDrawer(false)}>
-        <Box onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
+        <BoxContainer
+          onClick={toggleDrawer(false)}
+          onKeyDown={toggleDrawer(false)}
+        >
           <List>
             {navLinks.map(({ href, name }) => (
               <ListItem key={name}>
@@ -28,7 +37,7 @@ const MobileNavigation = ({ navLinks }) => {
               </ListItem>
             ))}
           </List>
-        </Box>
+        </BoxContainer>
       </Drawer>
     </>
   );
