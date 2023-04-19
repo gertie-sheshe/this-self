@@ -22,16 +22,18 @@ function Achievements() {
           {lgScreen ? (
             <Title
               title="Wins"
+              variant="h1"
               sx={{
                 textTransform: "uppercase",
                 fontWeight: "bold",
                 fontSize: "140px !important",
                 opacity: "3%",
+                margin: "40px",
                 writingMode: "vertical-rl",
               }}
             />
           ) : (
-            <Title title="talks" screenReaderOnly="true" />
+            <Title variant="h1" title="Talks" screenReaderOnly="true" />
           )}
         </Grid>
         <Grid sx={{ height: "100vh", overflow: "scroll" }}>
