@@ -22,16 +22,18 @@ function Speaking() {
           {lgScreen ? (
             <Title
               title="Talks"
+              variant="h1"
               sx={{
                 textTransform: "uppercase",
                 fontWeight: "bold",
+                padding: "40px",
                 fontSize: "140px !important",
                 opacity: "3%",
                 writingMode: "vertical-rl",
               }}
             />
           ) : (
-            <Title title="talks" screenReaderOnly="true" />
+            <Title title="talks" variant="h1" screenReaderOnly="true" />
           )}
         </Grid>
         <Grid sx={{ height: "100vh", overflow: "scroll" }}>

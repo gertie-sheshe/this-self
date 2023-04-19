@@ -22,16 +22,18 @@ function Projects() {
           {lgScreen ? (
             <Title
               title="Projects"
+              variant="h1"
               sx={{
                 textTransform: "uppercase",
                 fontWeight: "bold",
                 fontSize: "140px !important",
                 opacity: "3%",
                 writingMode: "vertical-rl",
+                padding: "40px",
               }}
             />
           ) : (
-            <Title title="projects" screenReaderOnly="true" />
+            <Title title="projects" variant="h1" screenReaderOnly="true" />
           )}
         </Grid>
         <Grid sx={{ height: "100vh", overflow: "scroll" }}>

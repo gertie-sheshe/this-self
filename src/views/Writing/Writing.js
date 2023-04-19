@@ -22,16 +22,18 @@ function Writing() {
           {lgScreen ? (
             <Title
               title="Writing"
+              variant="h1"
               sx={{
                 textTransform: "uppercase",
                 fontWeight: "bold",
                 fontSize: "140px !important",
                 opacity: "3%",
                 writingMode: "vertical-rl",
+                padding: "40px",
               }}
             />
           ) : (
-            <Title title="Writing" screenReaderOnly="true" />
+            <Title title="Writing" variant="h1" screenReaderOnly="true" />
           )}
         </Grid>
         <Grid sx={{ height: "100vh", overflow: "scroll" }}>

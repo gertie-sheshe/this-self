@@ -24,16 +24,18 @@ function Accessibility() {
           {lgScreen ? (
             <Title
               title="A11y"
+              variant="h1"
               sx={{
                 textTransform: "uppercase",
                 fontWeight: "bold",
                 fontSize: "140px !important",
                 opacity: "3%",
                 writingMode: "vertical-rl",
+                margin: "40px",
               }}
             />
           ) : (
-            <Title title="Accessibility" screenReaderOnly="true" />
+            <Title variant="h1" title="Accessibility" screenReaderOnly="true" />
           )}
         </Grid>
         <Grid sx={{ marginTop: "40px" }}>
