@@ -20,7 +20,7 @@ const MobileNavigation = ({ navLinks }) => {
   };
   return (
     <>
-      <Grid container>
+      <Grid container sx={{ height: "inherit" }}>
         <MenuButton aria-label="Menu" onClick={toggleDrawer(true)}>
           {<Menu fontSize="large" />}
         </MenuButton>
