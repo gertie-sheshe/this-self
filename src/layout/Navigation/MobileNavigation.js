@@ -33,7 +33,9 @@ const MobileNavigation = ({ navLinks }) => {
           <List>
             {navLinks.map(({ href, name }) => (
               <ListItem key={name}>
-                <StyledLink href={href}>{name}</StyledLink>
+                <StyledLink linkWidth="inherit" href={href}>
+                  {name}
+                </StyledLink>
               </ListItem>
             ))}
           </List>

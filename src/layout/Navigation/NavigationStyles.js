@@ -22,7 +22,7 @@ export const MenuButton = styled(Button)(({ theme: { palette } }) => ({
 }));
 
 export const StyledLink = styled(Link)(
-  ({ theme: { palette, breakpoints }, textColor }) => ({
+  ({ theme: { palette, breakpoints }, textColor, linkWidth }) => ({
     color: textColor || palette.secondary.main,
     fontWeight: "bold",
     fontSize: "1.2rem",
@@ -30,6 +30,7 @@ export const StyledLink = styled(Link)(
     textDecoration: "none",
     padding: "0 20px",
     margin: "10px",
+    width: linkWidth || "auto",
     [breakpoints.up("sm")]: {
       margin: 0,
     },

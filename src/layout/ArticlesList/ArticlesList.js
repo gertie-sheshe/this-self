@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import { List } from "@mui/material";
 import ListItem from "gertrudenyenyeshi/components/ListItem";
 
-function ArticlesList({ articles }) {
+function ArticlesList({ articles, sx }) {
   if (!articles) return;
   return (
-    <List sx={{ marginTop: "50px" }}>
+    <List sx={sx}>
       {articles.map((article) => (
         <ListItem key={article.title} {...article} />
       ))}

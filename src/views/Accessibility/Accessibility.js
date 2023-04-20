@@ -12,33 +12,34 @@ function Accessibility() {
   const lgScreen = useMediaQuery(theme.breakpoints.up("md"));
   return (
     <>
-      <Grid container flexWrap="nowrap">
+      <Grid container flexWrap={lgScreen ? "nowrap" : "wrap"}>
         <Grid
           sx={{
-            display: lgScreen ? "flex" : "none",
+            display: "flex",
             alignItems: "center",
-            height: "100vh",
-            flexWrap: "nowrap",
+            height: lgScreen ? "100vh" : "auto",
           }}
         >
-          {lgScreen ? (
-            <Title
-              title="A11y"
-              variant="h1"
-              sx={{
-                textTransform: "uppercase",
-                fontWeight: "bold",
-                fontSize: "140px !important",
-                opacity: "3%",
-                writingMode: "vertical-rl",
-                margin: "40px",
-              }}
-            />
-          ) : (
-            <Title variant="h1" title="Accessibility" screenReaderOnly="true" />
-          )}
+          <Title
+            title={lgScreen ? "A11y" : "Accessibility"}
+            variant="h1"
+            sx={{
+              textTransform: "uppercase",
+              fontWeight: "bold",
+              fontSize: lgScreen ? "8.7rem" : "3rem",
+              opacity: "3%",
+              writingMode: lgScreen ? "vertical-rl" : "horizontal-tb",
+              margin: lgScreen ? "40px" : "10px 0 0 0",
+            }}
+          />
         </Grid>
-        <Grid sx={{ marginTop: "40px" }}>
+        <Grid
+          sx={{
+            marginTop: lgScreen ? "40px" : "10px",
+            height: "100vh",
+            overflow: "scroll",
+          }}
+        >
           <section>
             <Typography
               sx={{
@@ -76,7 +77,10 @@ function Accessibility() {
             </Typography>
             <Divider />
             <div>
-              <SessionsList sessions={sessions} />
+              <SessionsList
+                sessions={sessions}
+                sx={{ marginTop: lgScreen ? "50px" : "0px" }}
+              />
             </div>
           </section>
         </Grid>

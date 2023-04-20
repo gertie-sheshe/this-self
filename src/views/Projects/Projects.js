@@ -10,34 +10,32 @@ function Projects() {
   const lgScreen = useMediaQuery(theme.breakpoints.up("md"));
   return (
     <>
-      <Grid container flexWrap="nowrap">
+      <Grid container flexWrap={lgScreen ? "nowrap" : "wrap"}>
         <Grid
           sx={{
-            display: lgScreen ? "flex" : "none",
+            display: "flex",
             alignItems: "center",
-            height: "100vh",
-            flexWrap: "nowrap",
+            height: lgScreen ? "100vh" : "auto",
           }}
         >
-          {lgScreen ? (
-            <Title
-              title="Projects"
-              variant="h1"
-              sx={{
-                textTransform: "uppercase",
-                fontWeight: "bold",
-                fontSize: "140px !important",
-                opacity: "3%",
-                writingMode: "vertical-rl",
-                padding: "40px",
-              }}
-            />
-          ) : (
-            <Title title="projects" variant="h1" screenReaderOnly="true" />
-          )}
+          <Title
+            title="Projects"
+            variant="h1"
+            sx={{
+              textTransform: "uppercase",
+              fontWeight: "bold",
+              fontSize: lgScreen ? "8.7rem" : "3rem",
+              opacity: "3%",
+              writingMode: lgScreen ? "vertical-rl" : "horizontal-tb",
+              margin: lgScreen ? "40px" : "10px 0 0 0",
+            }}
+          />
         </Grid>
         <Grid sx={{ height: "100vh", overflow: "scroll" }}>
-          <ProjectsList projects={projects} />
+          <ProjectsList
+            projects={projects}
+            sx={{ marginTop: lgScreen ? "50px" : "0px" }}
+          />
         </Grid>
       </Grid>
     </>
