@@ -10,34 +10,32 @@ function Achievements() {
   const lgScreen = useMediaQuery(theme.breakpoints.up("md"));
   return (
     <>
-      <Grid container flexWrap="nowrap">
+      <Grid container flexWrap={lgScreen ? "nowrap" : "wrap"}>
         <Grid
           sx={{
-            display: lgScreen ? "flex" : "none",
+            display: "flex",
             alignItems: "center",
-            height: "100vh",
-            flexWrap: "nowrap",
+            height: lgScreen ? "100vh" : "auto",
           }}
         >
-          {lgScreen ? (
-            <Title
-              title="Wins"
-              variant="h1"
-              sx={{
-                textTransform: "uppercase",
-                fontWeight: "bold",
-                fontSize: "140px !important",
-                opacity: "3%",
-                margin: "40px",
-                writingMode: "vertical-rl",
-              }}
-            />
-          ) : (
-            <Title variant="h1" title="Talks" screenReaderOnly="true" />
-          )}
+          <Title
+            title="Wins"
+            variant="h1"
+            sx={{
+              textTransform: "uppercase",
+              fontWeight: "bold",
+              fontSize: lgScreen ? "8.7rem" : "3rem",
+              opacity: "3%",
+              writingMode: lgScreen ? "vertical-rl" : "horizontal-tb",
+              margin: lgScreen ? "40px" : "10px 0 0 0",
+            }}
+          />
         </Grid>
         <Grid sx={{ height: "100vh", overflow: "scroll" }}>
-          <AchievementsList achievements={achievements} />
+          <AchievementsList
+            achievements={achievements}
+            sx={{ marginTop: lgScreen ? "50px" : "0px" }}
+          />
         </Grid>
       </Grid>
     </>

@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import { List } from "@mui/material";
 import ListItem from "gertrudenyenyeshi/components/ListItem";
 
-function SessionsList({ sessions }) {
+function SessionsList({ sessions, sx }) {
   if (!sessions) return;
   return (
-    <List sx={{ marginTop: "50px" }}>
+    <List sx={sx}>
       {sessions.map((session) => (
         <ListItem key={session.title} {...session} />
       ))}
