@@ -117,7 +117,7 @@ export const workExperienceSectionProps = {
 // ACCESSIBILITY PAGE
 export const sessions = [
   {
-    title: "Accessibility in Angular Applications",
+    title: "Accessibility in Angular Applications with Wayne Gakuo",
     description: "Making frontend angular applications accessible",
     href: "https://www.linkedin.com/feed/update/urn:li:activity:7059142856103370752",
   },
