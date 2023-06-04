@@ -117,6 +117,17 @@ export const workExperienceSectionProps = {
 // ACCESSIBILITY PAGE
 export const sessions = [
   {
+    title: "Accessibility in Angular Applications with Wayne Gakuo",
+    description: "Making frontend angular applications accessible",
+    href: "https://www.linkedin.com/feed/update/urn:li:activity:7059142856103370752",
+  },
+  {
+    title: "Accessibility Testing with Elinor Kaguongo",
+    description:
+      "Ensire digital products and services are accessible to everyone",
+    href: "https://www.linkedin.com/feed/update/urn:li:activity:7053638401392001025",
+  },
+  {
     title: "Accessibility in Javascript Applications with Purity Birir",
     description:
       "Best practices and techniques to create better user experiences.",
@@ -372,6 +383,29 @@ export const talks = [
 
 // WRITING PAGE
 export const articles = [
+  {
+    title:
+      "Is Clean Code Performant Code? CSS Layout Considerations. Ethical Design and Accessibility",
+    published: "June 2023",
+    description:
+      "Clean code patterns have existed to help developers create more maintainable code. But clean code patterns, according to Casey’s article, also can be a reason for slower software, and shouldn’t be strictly followed.",
+    href: "https://www.nyenyeshi.dev/is-clean-code-performant-code-css-layout-considerations-ethical-design-and-accessibility",
+  },
+  {
+    title:
+      "The Evolution of Web Technologies, React’s Impact, and Progressive Enhancement: Rethinking Web Best Practices.",
+    published: "May 2023",
+    description:
+      "Gaining insight into the web’s evolution and its architectural framework provides context for comprehending its current state.",
+    href: "https://www.nyenyeshi.dev/the-evolution-of-web-technologies-react-s-impact-and-progressive-enhancement-rethinking-web-best",
+  },
+  {
+    title: "Optimizing Javascript for Improved Frontend Performance",
+    published: "May 2023",
+    description:
+      "Javascript plays an essential role in modern web development. It enables dynamic and interactive experiences. However, inefficient or excessive use of Javascript comes at a cost. While Javascript empowers us to create rich web applications, it can inadvertently harm user experiences if not properly optimized.",
+    href: "https://www.nyenyeshi.dev/optimizing-javascript-for-improved-frontend-performance",
+  },
   {
     title: "Strategies for a Resilient Frontend",
     published: "December 2022",
